@@ -60,7 +60,7 @@ var personalSongList = [
     singer: ["Tiên Cookie", "JustaTee", "Big Daddy"],
     song_img: "./assets/Images/Personal_Song/1.webp",
     song_album: "Sau Tất Cả (Single)",
-    src: "./assets/Songs/Personal_Song/ThoiGianSeTraLoi.mp3",
+    src: "./assets/Songs/ThoiGianSeTraLoi.mp3",
     song_duration: "04:31",
   },
   {
@@ -68,7 +68,7 @@ var personalSongList = [
     singer: ["Tăng Duy Tăng", "Phong Max"],
     song_img: "./assets/Images/Personal_Song/2.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/NgayTho.mp3",
+    src: "./assets/Songs/NgayTho.mp3",
     song_duration: "03:51",
   },
   {
@@ -76,7 +76,7 @@ var personalSongList = [
     singer: ["Phương Ly"],
     song_img: "./assets/Images/Personal_Song/3.webp",
     song_album: "ThichThich (Single)",
-    src: "./assets/Songs/Personal_Song/ThichThich.mp3",
+    src: "./assets/Songs/ThichThich.mp3",
     song_duration: "04:25",
   },
   {
@@ -84,7 +84,7 @@ var personalSongList = [
     singer: ["Đạt G", "DuUyen", "BeeBB"],
     song_img: "./assets/Images/Personal_Song/4.webp",
     song_album: "Về (Single)",
-    src: "./assets/Songs/Personal_Song/Ve.mp3",
+    src: "./assets/Songs/Ve.mp3",
     song_duration: "05:24",
   },
   {
@@ -92,7 +92,7 @@ var personalSongList = [
     singer: ["Xesi", "Ricky Star"],
     song_img: "./assets/Images/Personal_Song/5.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/Dam.mp3",
+    src: "./assets/Songs/Dam.mp3",
     song_duration: "02:11",
   },
   {
@@ -100,7 +100,7 @@ var personalSongList = [
     singer: ["Lập Nguyên", "Yến Nồi Cơm Điện"],
     song_img: "./assets/Images/Personal_Song/6.webp",
     song_album: "Tình Ka Ngọt Ngào (Single)",
-    src: "./assets/Songs/Personal_Song/TinhKaNgotNgao.mp3",
+    src: "./assets/Songs/TinhKaNgotNgao.mp3",
     song_duration: "03:58",
   },
   {
@@ -108,7 +108,7 @@ var personalSongList = [
     singer: ["Bảo Thy"],
     song_img: "./assets/Images/Personal_Song/7.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/ConYeuMe.mp3",
+    src: "./assets/Songs/ConYeuMe.mp3",
     song_duration: "04:01",
   },
   {
@@ -116,7 +116,7 @@ var personalSongList = [
     singer: ["Tăng Duy Tân"],
     song_img: "./assets/Images/Personal_Song/8.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/BenTrenTangLau.mp3",
+    src: "./assets/Songs/BenTrenTangLau.mp3",
     song_duration: "02:51",
   },
   {
@@ -124,7 +124,7 @@ var personalSongList = [
     singer: ["July"],
     song_img: "./assets/Images/Personal_Song/9.webp",
     song_album: "Somewhere",
-    src: "./assets/Songs/Personal_Song/Somewhere.mp3",
+    src: "./assets/Songs/Somewhere.mp3",
     song_duration: "03:30",
   },
   {
@@ -132,7 +132,7 @@ var personalSongList = [
     singer: ["Ember Island", "The White Panda"],
     song_img: "./assets/Images/Personal_Song/10.webp",
     song_album: "Umbrella (The White Panda Remix)",
-    src: "./assets/Songs/Personal_Song/TinhKaNgotNgao.mp3",
+    src: "./assets/Songs/TinhKaNgotNgao.mp3",
     song_duration: "03:58",
   },
   {
@@ -140,7 +140,7 @@ var personalSongList = [
     singer: ["Doãn Hiếu", "BMZ"],
     song_img: "./assets/Images/Personal_Song/11.webp",
     song_album: "Nụ Cười 18 20 (Single)",
-    src: "./assets/Songs/Personal_Song/NuCuoi1820.mp3",
+    src: "./assets/Songs/NuCuoi1820.mp3",
     song_duration: "04:03",
   },
   {
@@ -148,7 +148,7 @@ var personalSongList = [
     singer: ["Green"],
     song_img: "./assets/Images/Personal_Song/12.webp",
     song_album: "Anh Đã Lạc Vào (Single)",
-    src: "./assets/Songs/Personal_Song/AnhDaLacVao.mp3",
+    src: "./assets/Songs/AnhDaLacVao.mp3",
     song_duration: "03:33",
   },
   {
@@ -156,7 +156,7 @@ var personalSongList = [
     singer: ["Winno", "Heily", "CUKAK"],
     song_img: "./assets/Images/Personal_Song/13.webp",
     song_album: "Tell Ur Mom II (Cukak Remix) (Single)",
-    src: "./assets/Songs/Personal_Song/TellYourMom2.mp3",
+    src: "./assets/Songs/TellYourMom2.mp3",
     song_duration: "04:11",
   },
   {
@@ -164,7 +164,7 @@ var personalSongList = [
     singer: ["Trịnh Diệc Thần"],
     song_img: "./assets/Images/Personal_Song/14.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/TuongTuThanhHoa.mp3",
+    src: "./assets/Songs/TuongTuThanhHoa.mp3",
     song_duration: "04:23",
   },
   {
@@ -172,7 +172,7 @@ var personalSongList = [
     singer: ["Skylar Grey"],
     song_img: "./assets/Images/Personal_Song/14.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/ImComingHome.mp3",
+    src: "./assets/Songs/ImComingHome.mp3",
     song_duration: "02:47",
   },
   {
@@ -180,7 +180,7 @@ var personalSongList = [
     singer: ["Huy Vạc"],
     song_img: "./assets/Images/Personal_Song/15.webp",
     song_album: "Kẻ Đuổi Theo Ánh Sáng (Single)",
-    src: "./assets/Songs/Personal_Song/KeTheoDuoiAnhSang.mp3",
+    src: "./assets/Songs/KeTheoDuoiAnhSang.mp3",
     song_duration: "03:47",
   },
   {
@@ -188,7 +188,7 @@ var personalSongList = [
     singer: ["Na"],
     song_img: "./assets/Images/Personal_Song/16.webp",
     song_album: "Không Bằng (Single)",
-    src: "./assets/Songs/Personal_Song/KhongBang.mp3",
+    src: "./assets/Songs/KhongBang.mp3",
     song_duration: "04:11",
   },
   {
@@ -196,7 +196,7 @@ var personalSongList = [
     singer: ["Minh Vương M4U", "Huy Cung"],
     song_img: "./assets/Images/Personal_Song/17.webp",
     song_album: "Em Sẽ Là Cô Dâu (Single)",
-    src: "./assets/Songs/Personal_Song/EmSeLaCoDau.mp3",
+    src: "./assets/Songs/EmSeLaCoDau.mp3",
     song_duration: "04:53",
   },
   {
@@ -204,7 +204,7 @@ var personalSongList = [
     singer: ["Thực Mai Cover"],
     song_img: "./assets/Images/Personal_Song/14.webp",
     song_album: "",
-    src: "./assets/Songs/Personal_Song/XachBaLoMaDi.mp3",
+    src: "./assets/Songs/XachBaLoMaDi.mp3",
     song_duration: "03:22",
   },
 ];
@@ -215,7 +215,7 @@ var chartSongs = [
     singer: ["Đức Phúc ★", "GDucky", "DTAP"],
     song_img: "./assets/Images/Chart_Page/0.webp",
     song_album: "Tết Là Đông Mới Vui (Single)",
-    src: "./assets/Songs/Chart_Song/TetLaDongMoiVui_0421.mp3",
+    src: "./assets/Songs/TetLaDongMoiVui_0421.mp3",
     song_duration: "04:21",
   },
   {
@@ -224,7 +224,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/1.webp",
     song_album: "Quả Phụ Tướng (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/QuaPhuTuong_0335.mp3",
+    src: "./assets/Songs/QuaPhuTuong_0335.mp3",
     song_duration: "03:35",
   },
   {
@@ -233,7 +233,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/2.webp",
     song_album: "Đừng Lo Nhé! Có Anh Đây (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/DungLoNheCoAnhDay_0455.mp3",
+    src: "./assets/Songs/DungLoNheCoAnhDay_0455.mp3",
     song_duration: "04:55",
   },
   {
@@ -242,7 +242,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/3.webp",
     song_album: "Cuối Cùng Thì (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/CuoiCungThi_0332.mp3",
+    src: "./assets/Songs/CuoiCungThi_0332.mp3",
     song_duration: "03:32",
   },
   {
@@ -251,7 +251,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/4.webp",
     song_album: "Khuất Lối (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/KhuatLoi_0427.mp3",
+    src: "./assets/Songs/KhuatLoi_0427.mp3",
     song_duration: "04:27",
   },
   {
@@ -260,7 +260,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/5.webp",
     song_album: "Trịnh Gia (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/TrinhGia_0300.mp3",
+    src: "./assets/Songs/TrinhGia_0300.mp3",
     song_duration: "03:00",
   },
   {
@@ -269,7 +269,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/6.webp",
     song_album: "Trót Trao Duyên (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/TrotTraoDuyen_0410.mp3",
+    src: "./assets/Songs/TrotTraoDuyen_0410.mp3",
     song_duration: "04:10",
   },
   {
@@ -278,7 +278,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/7.webp",
     song_album: "Sao Cũng Được (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/SaoCungDuoc_0607.mp3",
+    src: "./assets/Songs/SaoCungDuoc_0607.mp3",
     song_duration: "06:07",
   },
   {
@@ -287,7 +287,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/8.webp",
     song_album: "Thủy Chung (Single)",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/ThuyChung_0432.mp3",
+    src: "./assets/Songs/ThuyChung_0432.mp3",
     song_duration: "04:32",
   },
   {
@@ -296,7 +296,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/9.webp",
     song_album: "Lỡ Duyên Kiếp Này, Liệu Có Kiếp Sau (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/LoDuyenKiepNayLieuCoKiepSau_0444.mp3",
+    src: "./assets/Songs/LoDuyenKiepNayLieuCoKiepSau_0444.mp3",
     song_duration: "04:44",
   },
   {
@@ -305,7 +305,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/10.webp",
     song_album: "Cưới Hông Chốt Nha (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/CuoiHongChotNha_0408.mp3",
+    src: "./assets/Songs/CuoiHongChotNha_0408.mp3",
     song_duration: "04:08",
   },
   {
@@ -314,7 +314,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/11.webp",
     song_album: "Tòng Phu (Single)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/TongPhu_0454.mp3",
+    src: "./assets/Songs/TongPhu_0454.mp3",
     song_duration: "04:54",
   },
   {
@@ -323,7 +323,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/12.webp",
     song_album: "Vui Đón Xuân (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/VuiDonXuan_0333.mp3",
+    src: "./assets/Songs/VuiDonXuan_0333.mp3",
     song_duration: "03:33",
   },
   {
@@ -332,7 +332,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/13.webp",
     song_album: "Xuân Này Con Chưa Về (Single)",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/XuanNayConChuaVe_0538.mp3",
+    src: "./assets/Songs/XuanNayConChuaVe_0538.mp3",
     song_duration: "05:38",
   },
   {
@@ -341,7 +341,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/14.webp",
     song_album: "Người Thuomg7 Em Đây Mà (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/NguoiThuongEmDayMa_0625.mp3",
+    src: "./assets/Songs/NguoiThuongEmDayMa_0625.mp3",
     song_duration: "06:25",
   },
   {
@@ -350,7 +350,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/15.webp",
     song_album: "Anh Chưa Nghĩ Tới (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/AnhChuaNghiToi_0413.mp3",
+    src: "./assets/Songs/AnhChuaNghiToi_0413.mp3",
     song_duration: "04:13",
   },
   {
@@ -359,7 +359,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/16.webp",
     song_album: "Không Đâu Bằng Nhà (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/KhongDauBangNha_0359.mp3",
+    src: "./assets/Songs/KhongDauBangNha_0359.mp3",
     song_duration: "3:59",
   },
   {
@@ -368,7 +368,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/17.webp",
     song_album: "Con Hứa Sẽ Về (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/ConHuaSeVe_0502.mp3",
+    src: "./assets/Songs/ConHuaSeVe_0502.mp3",
     song_duration: "05:02",
   },
   {
@@ -377,7 +377,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/6.webp",
     song_album: "Trót Trao Duyên (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/TrotTraoDuyenRemix_0411.mp3",
+    src: "./assets/Songs/TrotTraoDuyenRemix_0411.mp3",
     song_duration: "04:11",
   },
   {
@@ -386,7 +386,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/19.webp",
     song_album: "Tết Bình An (Remix) (Single)",
     status: [false, 8],
-    src: "./assets/Songs/Chart_Song/TetBinhAn_0349.mp3",
+    src: "./assets/Songs/TetBinhAn_0349.mp3",
     song_duration: "03:49",
   },
   {
@@ -395,7 +395,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/20.webp",
     song_album: "Níu Duyên Không Thành (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/NiuDuyenKhongThanh_0530.mp3",
+    src: "./assets/Songs/NiuDuyenKhongThanh_0530.mp3",
     song_duration: "05:30",
   },
   {
@@ -404,7 +404,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/21.webp",
     song_album: "Giao Lộ Thời Gian Tập 8",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/AiRoiCungSeKhac_0446.mp3",
+    src: "./assets/Songs/AiRoiCungSeKhac_0446.mp3",
     song_duration: "04:46",
   },
   {
@@ -413,7 +413,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/22.webp",
     song_album: "Trót Vô Tình (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/TrotVoTinh_0514.mp3",
+    src: "./assets/Songs/TrotVoTinh_0514.mp3",
     song_duration: "05:14",
   },
   {
@@ -422,7 +422,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/23.webp",
     song_album: "Có Chơi Có Chịu (Single)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/CoChoiCoChiu_0446.mp3",
+    src: "./assets/Songs/CoChoiCoChiu_0446.mp3",
     song_duration: "04:46",
   },
   {
@@ -431,7 +431,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/24.webp",
     song_album: "Đón Xuân (Single)",
     status: [false, 4],
-    src: "./assets/Songs/Chart_Song/DonXuan_0333.mp3",
+    src: "./assets/Songs/DonXuan_0333.mp3",
     song_duration: "03:33",
   },
   {
@@ -440,7 +440,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/25.webp",
     song_album: "Đợi Chờ Đừng Cáu (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/DoiChoDungCau_0550.mp3",
+    src: "./assets/Songs/DoiChoDungCau_0550.mp3",
     song_duration: "05:50",
   },
   {
@@ -449,7 +449,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/26.webp",
     song_album: "Kỳ Vọng Sai Lầm (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/KyVongSaiLam_0351.mp3",
+    src: "./assets/Songs/KyVongSaiLam_0351.mp3",
     song_duration: "03:51",
   },
   {
@@ -458,7 +458,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/27.webp",
     song_album: "ngủ một mình (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/NguMotMinh_0325.mp3",
+    src: "./assets/Songs/NguMotMinh_0325.mp3",
     song_duration: "03:25",
   },
   {
@@ -467,7 +467,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/28.webp",
     song_album: "Trăm Ngàn Lời Thương (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/TramNganLoiThuong_0302.mp3",
+    src: "./assets/Songs/TramNganLoiThuong_0302.mp3",
     song_duration: "03:02",
   },
   {
@@ -476,7 +476,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/29.webp",
     song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
     status: [false, 5],
-    src: "./assets/Songs/Chart_Song/NamQuaDaLamGi_0329.mp3",
+    src: "./assets/Songs/NamQuaDaLamGi_0329.mp3",
     song_duration: "03:29",
   },
   {
@@ -485,7 +485,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/30.webp",
     song_album: "winter warmer (AP)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/DeToiOmEmBangGiaiDieuNay_0434.mp3",
+    src: "./assets/Songs/DeToiOmEmBangGiaiDieuNay_0434.mp3",
     song_duration: "03:34",
   },
   {
@@ -494,7 +494,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/31.webp",
     song_album: "Vọng",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/YeuNguoiCoUocMo_0445.mp3",
+    src: "./assets/Songs/YeuNguoiCoUocMo_0445.mp3",
     song_duration: "04:45",
   },
   {
@@ -503,7 +503,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/32.webp",
     song_album: "Bao Lâu Chưa Về Nhà? (Single)",
     status: [false, 3],
-    src: "./assets/Songs/Chart_Song/BaoLauChuaVeNha_0523.mp3",
+    src: "./assets/Songs/BaoLauChuaVeNha_0523.mp3",
     song_duration: "05:23",
   },
   {
@@ -512,7 +512,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/33.webp",
     song_album: "Ân Tình Sang Trang (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/AnTinhSangTrang_0542.mp3",
+    src: "./assets/Songs/AnTinhSangTrang_0542.mp3",
     song_duration: "05:42",
   },
   {
@@ -521,7 +521,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/34.webp",
     song_album: "Cái Tết Giàu (Single)",
     status: [false, 3],
-    src: "./assets/Songs/Chart_Song/CaiTetGiau_0530.mp3",
+    src: "./assets/Songs/CaiTetGiau_0530.mp3",
     song_duration: "05:30",
   },
   {
@@ -530,7 +530,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/35.webp",
     song_album: "Chịu Em Đi (Single)",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/ChiuEmDi_0434.mp3",
+    src: "./assets/Songs/ChiuEmDi_0434.mp3",
     song_duration: "04:34",
   },
   {
@@ -539,7 +539,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/36.webp",
     song_album: "22",
     status: [true, 5],
-    src: "./assets/Songs/Chart_Song/WaitingForYou_0425.mp3",
+    src: "./assets/Songs/WaitingForYou_0425.mp3",
     song_duration: "04:25",
   },
   {
@@ -548,7 +548,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/37.webp",
     song_album: "Người Như Chúng Ta (Single)",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/NguoiNhuChungTa_0449.mp3",
+    src: "./assets/Songs/NguoiNhuChungTa_0449.mp3",
     song_duration: "04:49",
   },
   {
@@ -557,7 +557,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/38.webp",
     song_album: "Em Sẽ Quên Anh (Single)",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/EmSeQuenAnh_0403.mp3",
+    src: "./assets/Songs/EmSeQuenAnh_0403.mp3",
     song_duration: "04:03",
   },
   {
@@ -566,7 +566,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/39.webp",
     song_album: "Tết Yêu, Tết Ghét (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/TetYeuTetGhet_0349.mp3",
+    src: "./assets/Songs/TetYeuTetGhet_0349.mp3",
     song_duration: "03:49",
   },
   {
@@ -575,7 +575,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/40.webp",
     song_album: "Tết Bùng Nội Lực (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/TetBungNoiLuc_0330.mp3",
+    src: "./assets/Songs/TetBungNoiLuc_0330.mp3",
     song_duration: "03:30",
   },
   {
@@ -584,7 +584,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/41.webp",
     song_album: "Chàng Trai Của Em (Single)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/ChangTraiCuaEm_0330.mp3",
+    src: "./assets/Songs/ChangTraiCuaEm_0330.mp3",
     song_duration: "03:30",
   },
   {
@@ -593,7 +593,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/42.webp",
     song_album: "Nụ Cười Xuân (Single)",
     status: [false, 4],
-    src: "./assets/Songs/Chart_Song/NuCuoiXuan_0429.mp3",
+    src: "./assets/Songs/NuCuoiXuan_0429.mp3",
     song_duration: "04:29",
   },
   {
@@ -602,7 +602,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/43.webp",
     song_album: "Kiếp Má Hồng (Single)",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/KiepMaHong_0443.mp3",
+    src: "./assets/Songs/KiepMaHong_0443.mp3",
     song_duration: "04:43",
   },
   {
@@ -611,7 +611,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/29.webp",
     song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
     status: [true, 6],
-    src: "./assets/Songs/Chart_Song/VuiNhuTet_0343.mp3",
+    src: "./assets/Songs/VuiNhuTet_0343.mp3",
     song_duration: "03:43",
   },
   {
@@ -620,7 +620,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/4.webp",
     song_album: "Khuất Lối (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/KhuatLoiRemix_0425.mp3",
+    src: "./assets/Songs/KhuatLoiRemix_0425.mp3",
     song_duration: "04:25",
   },
   {
@@ -629,7 +629,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/46.webp",
     song_album: "",
     status: [true, 12],
-    src: "./assets/Songs/Chart_Song/RoiTaSeNgamPhaoHoaCungNhau_0442.mp3",
+    src: "./assets/Songs/RoiTaSeNgamPhaoHoaCungNhau_0442.mp3",
     song_duration: "04:42",
   },
   {
@@ -638,7 +638,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/47.webp",
     song_album: "Tết Nay Con Hứa Về (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/TetNayConHuaVe_0451.mp3",
+    src: "./assets/Songs/TetNayConHuaVe_0451.mp3",
     song_duration: "04:51",
   },
   {
@@ -647,7 +647,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/48.webp",
     song_album: "Định Mệnh (Single)",
     status: [false, 5],
-    src: "./assets/Songs/Chart_Song/DinhMenh_0458.mp3",
+    src: "./assets/Songs/DinhMenh_0458.mp3",
     song_duration: "04:58",
   },
   {
@@ -656,7 +656,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/49.webp",
     song_album: "Gấp Lắm Rồi (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/GapLamRoi_0518.mp3",
+    src: "./assets/Songs/GapLamRoi_0518.mp3",
     song_duration: "05:18",
   },
   {
@@ -665,7 +665,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/50.webp",
     song_album: "Em Chịu Hông (Single)",
     status: [false, 3],
-    src: "./assets/Songs/Chart_Song/EmChiuHong_0405.mp3",
+    src: "./assets/Songs/EmChiuHong_0405.mp3",
     song_duration: "04:05",
   },
   {
@@ -674,7 +674,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/51.webp",
     song_album: "Luyến Lưu (Single)",
     status: [false, 6],
-    src: "./assets/Songs/Chart_Song/LuyenLuu_0415.mp3",
+    src: "./assets/Songs/LuyenLuu_0415.mp3",
     song_duration: "04:15",
   },
   {
@@ -683,7 +683,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/52.webp",
     song_album: "Em Là Kẻ Đáng Thương (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/EmLaKeDangThuong_0421.mp3",
+    src: "./assets/Songs/EmLaKeDangThuong_0421.mp3",
     song_duration: "04:21",
   },
   {
@@ -692,7 +692,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/53.webp",
     song_album: "Bông Hoa Nở Muộn (Single)",
     status: [false, 5],
-    src: "./assets/Songs/Chart_Song/BongHoaNoMuon_0506.mp3",
+    src: "./assets/Songs/BongHoaNoMuon_0506.mp3",
     song_duration: "05:06",
   },
   {
@@ -701,7 +701,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/54.webp",
     song_album: "",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/ChiaCachBinhYen_0402.mp3",
+    src: "./assets/Songs/ChiaCachBinhYen_0402.mp3",
     song_duration: "04:02",
   },
   {
@@ -710,7 +710,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/55.webp",
     song_album: "Ngày Mai Em Đi Mất (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/NgayMaiEmDiMat_0413.mp3",
+    src: "./assets/Songs/NgayMaiEmDiMat_0413.mp3",
     song_duration: "04:13",
   },
   {
@@ -719,7 +719,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/56.webp",
     song_album: "Ui Dza! Là Tết (Single)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/UiDzaLaTet_0256.mp3",
+    src: "./assets/Songs/UiDzaLaTet_0256.mp3",
     song_duration: "02:56",
   },
   {
@@ -728,7 +728,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/57.webp",
     song_album: "Người Như Anh (Single)",
     status: [false, 3],
-    src: "./assets/Songs/Chart_Song/NguoiNhuAnh_0501.mp3",
+    src: "./assets/Songs/NguoiNhuAnh_0501.mp3",
     song_duration: "05:01",
   },
   {
@@ -737,7 +737,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/29.webp",
     song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
     status: [false, 1],
-    src: "./assets/Songs/Chart_Song/NhuHoaMuaXuan_0459.mp3",
+    src: "./assets/Songs/NhuHoaMuaXuan_0459.mp3",
     song_duration: "04:59",
   },
   {
@@ -746,7 +746,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/59.webp",
     song_album: "anh đến cùng cơn mưa (Single)",
     status: [true, 8],
-    src: "./assets/Songs/Chart_Song/AnhSeDenCungConMua_0428.mp3",
+    src: "./assets/Songs/AnhSeDenCungConMua_0428.mp3",
     song_duration: "04:28",
   },
   {
@@ -755,7 +755,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/60.webp",
     song_album: "Em Nên Đừng Lại (Single)",
     status: [true, 2],
-    src: "./assets/Songs/Chart_Song/EmNenDungLai_0554.mp3",
+    src: "./assets/Songs/EmNenDungLai_0554.mp3",
     song_duration: "05:54",
   },
   {
@@ -764,7 +764,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/61.webp",
     song_album: "Thương Thì Về Đây (Single)",
     status: [true, 5],
-    src: "./assets/Songs/Chart_Song/ThuongThiVeDay_0410.mp3",
+    src: "./assets/Songs/ThuongThiVeDay_0410.mp3",
     song_duration: "04:10",
   },
   {
@@ -773,7 +773,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/62.webp",
     song_album: "Tình Yêu Đến Sau (Single)",
     status: [true, 7],
-    src: "./assets/Songs/Chart_Song/TinhYeuDenSau_0533.mp3",
+    src: "./assets/Songs/TinhYeuDenSau_0533.mp3",
     song_duration: "05:33",
   },
   {
@@ -782,7 +782,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/63.webp",
     song_album: "Cô Đơn Trên Sofa (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/CoDonTrenSofa_0437.mp3",
+    src: "./assets/Songs/CoDonTrenSofa_0437.mp3",
     song_duration: "04:37",
   },
   {
@@ -791,7 +791,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/64.webp",
     song_album: "Chơi Banh Tết (Single)",
     status: [false, 4],
-    src: "./assets/Songs/Chart_Song/ChoiBanhTet_0323.mp3",
+    src: "./assets/Songs/ChoiBanhTet_0323.mp3",
     song_duration: "03:23",
   },
   {
@@ -800,7 +800,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/65.webp",
     song_album: "Yêu Mấy Cũng Đừng Quay Lại (Single)",
     status: [true, 11],
-    src: "./assets/Songs/Chart_Song/YeuMayCungDungQuayLai_0503.mp3",
+    src: "./assets/Songs/YeuMayCungDungQuayLai_0503.mp3",
     song_duration: "05:03",
   },
   {
@@ -809,7 +809,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/66.webp",
     song_album: "Cơm Đoàn Viên (Single)",
     status: [true, 4],
-    src: "./assets/Songs/Chart_Song/ComDoanVien_0445.mp3",
+    src: "./assets/Songs/ComDoanVien_0445.mp3",
     song_duration: "04:45",
   },
   {
@@ -818,7 +818,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/67.webp",
     song_album: "Thèm Được Về Nhà (Single)",
     status: [true, 13],
-    src: "./assets/Songs/Chart_Song/ThemDuocVeNha_0430.mp3",
+    src: "./assets/Songs/ThemDuocVeNha_0430.mp3",
     song_duration: "04:30",
   },
   {
@@ -827,7 +827,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/68.webp",
     song_album: "Tết Đi Em Ơi (Single)",
     status: [true, 5],
-    src: "./assets/Songs/Chart_Song/TetDiEmOi_0317.mp3",
+    src: "./assets/Songs/TetDiEmOi_0317.mp3",
     song_duration: "03:17",
   },
   {
@@ -836,7 +836,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/69.webp",
     song_album: "Xuân Họp Mặt",
     status: [false, 14],
-    src: "./assets/Songs/Chart_Song/BaiCaTetChoEm_0315.mp3",
+    src: "./assets/Songs/BaiCaTetChoEm_0315.mp3",
     song_duration: "03:15",
   },
   {
@@ -845,7 +845,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/70.webp",
     song_album: "Anh Tệ (Single)",
     status: [true, 11],
-    src: "./assets/Songs/Chart_Song/AnhTe_0354.mp3",
+    src: "./assets/Songs/AnhTe_0354.mp3",
     song_duration: "03:54",
   },
   {
@@ -854,7 +854,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/71.webp",
     song_album: "O Phải Hôm Nay (Single)",
     status: [true, 6],
-    src: "./assets/Songs/Chart_Song/0PhaiHomNay_0237.mp3",
+    src: "./assets/Songs/0PhaiHomNay_0237.mp3",
     song_duration: "02:37",
   },
   {
@@ -863,7 +863,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/72.webp",
     song_album: "Cứu Vãn Kịp Không (Single)",
     status: [true, 13],
-    src: "./assets/Songs/Chart_Song/CuuVanKipKhong_0453.mp3",
+    src: "./assets/Songs/CuuVanKipKhong_0453.mp3",
     song_duration: "04:53",
   },
   {
@@ -872,7 +872,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/73.webp",
     song_album: "Tết Rộn Ràng (Single)",
     status: [false, 5],
-    src: "./assets/Songs/Chart_Song/TetRonRang_0401.mp3",
+    src: "./assets/Songs/TetRonRang_0401.mp3",
     song_duration: "04:01",
   },
   {
@@ -881,7 +881,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/74.webp",
     song_album: "Bông Hoa Nở Muộn (Single)",
     status: [false, 5],
-    src: "./assets/Songs/Chart_Song/BongHoaNoMuon_0415.mp3",
+    src: "./assets/Songs/BongHoaNoMuon_0415.mp3",
     song_duration: "04:15",
   },
   {
@@ -890,7 +890,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/75.webp",
     song_album: "Bài này không để đi diễn (Single)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/BaiNayKhongDeDiDien_0300.mp3",
+    src: "./assets/Songs/BaiNayKhongDeDiDien_0300.mp3",
     song_duration: "03:00",
   },
   {
@@ -899,7 +899,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/76.webp",
     song_album: "Xuôi Dòng Cửu Long (Single)",
     status: [true, 6],
-    src: "./assets/Songs/Chart_Song/XuoiDongCuuLong_0354.mp3",
+    src: "./assets/Songs/XuoiDongCuuLong_0354.mp3",
     song_duration: "03:54",
   },
   {
@@ -908,7 +908,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/77.webp",
     song_album: "Nếu Không Yêu Sẽ Không Đau Lòng (Single)",
     status: [false, 2],
-    src: "./assets/Songs/Chart_Song/NeuKhongYeuSeKhongDauLong_0419.mp3",
+    src: "./assets/Songs/NeuKhongYeuSeKhongDauLong_0419.mp3",
     song_duration: "04:19",
   },
   {
@@ -917,7 +917,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/78.webp",
     song_album: "Mong Ước Sum Vầy (Single)",
     status: [true, 9],
-    src: "./assets/Songs/Chart_Song/MongUocSungVay_0343.mp3",
+    src: "./assets/Songs/MongUocSungVay_0343.mp3",
     song_duration: "03:43",
   },
   {
@@ -926,7 +926,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/79.webp",
     song_album: "Mang Hạnh Phúc Đến Thăm (Single)",
     status: [true, 16],
-    src: "./assets/Songs/Chart_Song/MangHanhPhucDenTham_0320.mp3",
+    src: "./assets/Songs/MangHanhPhucDenTham_0320.mp3",
     song_duration: "03:20",
   },
   {
@@ -935,7 +935,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/80.webp",
     song_album: "Thuyền Quyên (Single)",
     status: [true, 8],
-    src: "./assets/Songs/Chart_Song/ThuyenQuyen_0333.mp3",
+    src: "./assets/Songs/ThuyenQuyen_0333.mp3",
     song_duration: "03:33",
   },
   {
@@ -944,7 +944,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/81.webp",
     song_album: "Má La Anh Giờ (Single)",
     status: [false, 9],
-    src: "./assets/Songs/Chart_Song/",
+    src: "./assets/Songs/",
     song_duration: "03:06",
   },
   {
@@ -953,7 +953,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/82.webp",
     song_album: "ngủ một mình (tình rất tình) (Single)",
     status: [false, 19],
-    src: "./assets/Songs/Chart_Song/NguMotMinh_0301.mp3",
+    src: "./assets/Songs/NguMotMinh_0301.mp3",
     song_duration: "03:01",
   },
   {
@@ -962,7 +962,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/29.webp",
     song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
     status: null,
-    src: "./assets/Songs/Chart_Song/TetNayConSeVe_0355.mp3",
+    src: "./assets/Songs/TetNayConSeVe_0355.mp3",
     song_duration: "03:55",
   },
   {
@@ -971,7 +971,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/84.webp",
     song_album: "Chung Rượu Hồng (Single)",
     status: [true, 14],
-    src: "./assets/Songs/Chart_Song/ChungRuouHong_0340.mp3",
+    src: "./assets/Songs/ChungRuouHong_0340.mp3",
     song_duration: "03:40",
   },
   {
@@ -980,7 +980,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/85.webp",
     song_album: "Định Tết Này Con Không Về (Single)",
     status: [false, 11],
-    src: "./assets/Songs/Chart_Song/DinhTetNayConKhongVe_0618.mp3",
+    src: "./assets/Songs/DinhTetNayConKhongVe_0618.mp3",
     song_duration: "06:18",
   },
   {
@@ -989,7 +989,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/86.webp",
     song_album: "Anh Tự Do Nhưng Cô Đơn (EP)",
     status: [false, 7],
-    src: "./assets/Songs/Chart_Song/AnhTuDoNhungCoDon_0540.mp3",
+    src: "./assets/Songs/AnhTuDoNhungCoDon_0540.mp3",
     song_duration: "05:40",
   },
   {
@@ -998,7 +998,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/87.webp",
     song_album: "Tết Này Sâu Đậm (Single)",
     status: [false, 3],
-    src: "./assets/Songs/Chart_Song/TetNaySauDam_0600.mp3",
+    src: "./assets/Songs/TetNaySauDam_0600.mp3",
     song_duration: "06:00",
   },
   {
@@ -1007,7 +1007,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/88.webp",
     song_album: "Tết Là Đông Mới Vui (Single)",
     status: [true, 4],
-    src: "./assets/Songs/Chart_Song/TetLaDongMoiVui_0421.mp3",
+    src: "./assets/Songs/TetLaDongMoiVui_0421.mp3",
     song_duration: "04:21",
   },
   {
@@ -1016,7 +1016,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/89.webp",
     song_album: "1st Mini Album - Mashup: Tết Đến Thật Rồi (EP)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/MashupXuan_0345.mp3",
+    src: "./assets/Songs/MashupXuan_0345.mp3",
     song_duration: "03:45",
   },
   {
@@ -1025,7 +1025,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/90.webp",
     song_album: "Tết Cùng Đoàn Viên (Single)",
     status: [true, 3],
-    src: "./assets/Songs/Chart_Song/TetCungDoanVien_0439.mp3",
+    src: "./assets/Songs/TetCungDoanVien_0439.mp3",
     song_duration: "04:39",
   },
   {
@@ -1034,7 +1034,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/91.webp",
     song_album: "Đừng Lo Nhé! Có Em Đây (Single)",
     status: [false, 2],
-    src: "./assets/Songs/Chart_Song/DungLoNheCoEmDay_0439.mp3",
+    src: "./assets/Songs/DungLoNheCoEmDay_0439.mp3",
     song_duration: "04:39",
   },
   {
@@ -1043,7 +1043,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/92.webp",
     song_album: "Ghé Vào Tai (Single)",
     status: [false, 31],
-    src: "./assets/Songs/Chart_Song/GheVaoTai_0257.mp3",
+    src: "./assets/Songs/GheVaoTai_0257.mp3",
     song_duration: "02:57",
   },
   {
@@ -1052,7 +1052,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/93.webp",
     song_album: "Anh Không Thể Ngờ (Single)",
     status: [true, 4],
-    src: "./assets/Songs/Chart_Song/AnhKhongTheNgo_0425.mp3",
+    src: "./assets/Songs/AnhKhongTheNgo_0425.mp3",
     song_duration: "04:25",
   },
   {
@@ -1061,7 +1061,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/94.webp",
     song_album: "Tết Này Phất Luôn (Single)",
     status: [false, 4],
-    src: "./assets/Songs/Chart_Song/TetNayPhatLuon_0239.mp3",
+    src: "./assets/Songs/TetNayPhatLuon_0239.mp3",
     song_duration: "02:39",
   },
   {
@@ -1070,7 +1070,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/95.webp",
     song_album: "Đến Giờ Cơm (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/DenGioCom_0503.mp3",
+    src: "./assets/Songs/DenGioCom_0503.mp3",
     song_duration: "05:03",
   },
   {
@@ -1079,7 +1079,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/96.webp",
     song_album: "Rồi Em Sẽ Ổn Thôi (Single)",
     status: [false, 5],
-    src: "./assets/Songs/Chart_Song/RoiEmSeOnThoi_0429.mp3",
+    src: "./assets/Songs/RoiEmSeOnThoi_0429.mp3",
     song_duration: "04:29",
   },
   {
@@ -1088,7 +1088,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/97.webp",
     song_album: "Thương Phận Đời Con Gái (Single)",
     status: [false, 26],
-    src: "./assets/Songs/Chart_Song/ThuongPhanDoiConGai_0457.mp3",
+    src: "./assets/Songs/ThuongPhanDoiConGai_0457.mp3",
     song_duration: "04:57",
   },
   {
@@ -1097,7 +1097,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/98.webp",
     song_album: "Pháo Hồng (Single)",
     status: [true, 1],
-    src: "./assets/Songs/Chart_Song/PhaoHong_0352.mp3",
+    src: "./assets/Songs/PhaoHong_0352.mp3",
     song_duration: "03:52",
   },
   {
@@ -1106,7 +1106,7 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/99.webp",
     song_album: "",
     status: null,
-    src: "./assets/Songs/Chart_Song/TuNhienCaiTet_0309.mp3",
+    src: "./assets/Songs/TuNhienCaiTet_0309.mp3",
     song_duration: "03:09",
   },
   {
@@ -1115,8 +1115,163 @@ var chartSongs = [
     song_img: "./assets/Images/Chart_Page/100.webp",
     song_album: "Vương Vấn (Single)",
     status: null,
-    src: "./assets/Songs/Chart_Song/VuongVan_0403.mp3",
+    src: "./assets/Songs/VuongVan_0403.mp3",
     song_duration: "04:03",
+  },
+];
+
+var albumSongList = [
+  {
+    song_name: "Trăm Ngàn Lời Thương",
+    singer: ["Thùy Chi", "Ricky Star"],
+    song_img: "./assets/Images/Album_Image/TramNganLoiThuong.webp",
+    song_album: "Trăm Ngàn Lời Thương (Single)",
+    src: "./assets/Songs/TramNganLoiThuong_0302.mp3",
+    song_duration: "03:02",
+  },
+  {
+    song_name: "Bao Lâu Chưa Về Nhà",
+    singer: ["DatKaa"],
+    song_img: "./assets/Images/Album_Image/BaoLauChuaVeNha.webp",
+    song_album: "Bao Lâu Chưa Về Nhà (Single)",
+    src: "./assets/Songs/BaoLauChuaVeNha_0523.mp3",
+    song_duration: "05:23",
+  },
+  {
+    song_name: "Đợi Chờ Đừng Cáu",
+    singer: ["Phan Mạnh Quỳnh", "Hoàng Thùy Link"],
+    song_img: "./assets/Images/Album_Image/DoiChoDungCau.webp",
+    song_album: "Đợi Chờ Đừng Cáu (Single)",
+    src: "./assets/Songs/DoiChoDungCau_0550.mp3",
+    song_duration: "05:50",
+  },
+  {
+    song_name: "Như Hoa Mùa Xuân",
+    singer: ["Phùng Khánh Linh", "Wren Evans"],
+    song_img: "./assets/Images/Album_Image/NhuHoaMuaXuan.webp",
+    song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
+    src: "./assets/Songs/NhuHoaMuaXuan_0459.mp3",
+    song_duration: "04:59",
+  },
+  {
+    song_name: "Tết Bùng Nội Lực",
+    singer: ["Hòa Minzy ★", "Bùi Công Nam"],
+    song_img: "./assets/Images/Album_Image/TetBungNoiLuc.webp",
+    song_album: "Tết Bùng Nội Lực (Single)",
+    src: "./assets/Songs/TetBungNoiLuc_0330.mp3",
+    song_duration: "03:30",
+  },
+  {
+    song_name: "Tự Nhiên Cái Tết",
+    singer: ["Bùi Công Nam"],
+    song_img: "./assets/Images/Album_Image/TuNhienCaiTet.webp",
+    song_album: "",
+    src: "./assets/Songs/TuNhienCaiTet_0309.mp3",
+    song_duration: "03:09",
+  },
+  {
+    song_name: "Tết Yêu, Tết Ghét",
+    singer: ["Ninh Dương Lan Ngọc", "HuyR"],
+    song_img: "./assets/Images/Album_Image/TetYeuTetGhet.webp",
+    song_album: "Tết Yêu, Tết Ghét (Single)",
+    src: "./assets/Songs/TetYeuTetGhet_0349.mp3",
+    song_duration: "03:49",
+  },
+  {
+    song_name: "Mang Hạnh Phúc Đến Thăm",
+    singer: ["Huyền Tâm Môn"],
+    song_img: "./assets/Images/Album_Image/MangHanhPhucDenTham.webp",
+    song_album: "Mang Hạnh Phúc Đến Thăm (Single)",
+    src: "./assets/Songs/MangHanhPhucDenTham_0320.mp3",
+    song_duration: "03:20",
+  },
+  {
+    song_name: "Cái Tết Giàu",
+    singer: ["Bùi Công Nam", "Lương Bích Hữu", "Đông Nhi", "Bé Winnie"],
+    song_img: "./assets/Images/Album_Image/TramNganLoiThuong.webp",
+    song_album: "Cái Tết Giàu (Single)",
+    src: "./assets/Songs/CaiTetGiau_0530.mp3",
+    song_duration: "05:30",
+  },
+  {
+    song_name: "Chơi Banh Tết",
+    singer: ["QNT", "Fanny"],
+    song_img: "./assets/Images/Album_Image/ChoiBanhTet.webp",
+    song_album: "Chơi Banh Tết (Single)",
+    src: "./assets/Songs/ChoiBanhTet_0323.mp3",
+    song_duration: "03:23",
+  },
+  {
+    song_name: "Đón Xuân",
+    singer: ["Thanh Hà"],
+    song_img: "./assets/Images/Album_Image/DonXuan.webp",
+    song_album: "Đón Xuân (Single)",
+    src: "./assets/Songs/DonXuan_0333.mp3",
+    song_duration: "03:33",
+  },
+  {
+    song_name: "Năm Qua Đã Làm Gì",
+    singer: ["Hồ Ngọc Hà"],
+    song_img: "./assets/Images/Album_Image/NhuHoaMuaXuan.webp",
+    song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
+    src: "./assets/Songs/NamQuaDaLamGi_0329.mp3",
+    song_duration: "03:29",
+  },
+  {
+    song_name: "Ui Dza! Là Tết",
+    singer: ["Ngọc Dolil"],
+    song_img: "./assets/Images/Album_Image/UiDzaLaTet.webp",
+    song_album: "Ui Dza! Là Tết (Single)",
+    src: "./assets/Songs/UiDzaLaTet_0256.mp3",
+    song_duration: "02:56",
+  },
+  {
+    song_name: "Tết Là Đông Mới Vui",
+    singer: ["Đức Phúc ★", "GDucky", "DTAP"],
+    song_img: "./assets/Images/Album_Image/TetLaDongMoiVui.webp",
+    song_album: "Tết Là Đông Mới Vui (Single)",
+    src: "./assets/Songs/TetLaDongMoiVui_0421.mp3",
+    song_duration: "04:21",
+  },
+  {
+    song_name: "Tết Đi Em Ơi",
+    singer: ["Masew", "Khoi Vu", "kaybo"],
+    song_img: "./assets/Images/Album_Image/TetDiEmOi.webp",
+    song_album: "Tết Đi Em Ơi (Single)",
+    src: "./assets/Songs/TetDiEmOi_0317.mp3",
+    song_duration: "03:17",
+  },
+  {
+    song_name: "Đón Tết Quê Hương",
+    singer: ["Ngọc Dolil"],
+    song_img: "./assets/Images/Album_Image/NhuHoaMuaXuan.webp",
+    song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
+    src: "./assets/Songs/DonTetQueHuong_0412.mp3",
+    song_duration: "04:12",
+  },
+  {
+    song_name: "Mừng Con Về Nhà",
+    singer: ["Anh Tú"],
+    song_img: "./assets/Images/Album_Image/MungConVeNha.webp",
+    song_album: "Mừng Con Về Nhà (Single)",
+    src: "./assets/Songs/MungConVeNha_0433.mp3",
+    song_duration: "04:33",
+  },
+  {
+    song_name: "Định Tết Này Con Không Về",
+    singer: ["Trịnh Đình Quang"],
+    song_img: "./assets/Images/Album_Image/DinhTetNayConKhongVe.webp",
+    song_album: "Định Tết Này Con Không Về (Single)",
+    src: "./assets/Songs/DinhTetNayConKhongVe_0618.mp3",
+    song_duration: "06:18",
+  },
+  {
+    song_name: "Thèm Được Về Nhà",
+    singer: ["Tăng Phúc", "Trương Thảo Nhi"],
+    song_img: "./assets/Images/Album_Image/ThemDuocVeNha.webp",
+    song_album: "Thèm Được Về Nhà (Single)",
+    src: "./assets/Songs/ThemDuocVeNha_0430.mp3",
+    song_duration: "04:30",
   },
 ];
 
@@ -1494,6 +1649,16 @@ song.ontimeupdate = function () {
       ", var(--element-color)), color-stop(" +
       val +
       ", #5a5560)";
+  }
+  var effect = document.querySelector(".album-image");
+  if (song.paused) {
+    if (effect.classList.contains("active")) {
+      effect.classList.remove("active");
+    }
+  } else {
+    if (!effect.classList.contains("active")) {
+      effect.classList.add("active");
+    }
   }
 };
 

@@ -36,13 +36,13 @@
     position: relative;
 }
 
-.album-image img {
+.album-image .main-image {
     width: 100%;
     height: 100%;
     transition: .3s ease-in-out;
 }
 
-.album-image img:hover {
+.album-image:not(.active) .main-image:hover {
     transform: scale(1.1);
     transform-origin: 50% 50%;
     filter: brightness(.4);
@@ -145,6 +145,13 @@ h3.album-title {
     border-top: 1px solid rgba(255, 255, 255, .3);
     padding: 8px 0;
 }
+.album__song-list__item:hover .play-icon {
+    display: block;
+}
+
+.album__song-list__item:hover img {
+    filter: brightness(.4);
+}
 
 .album__song-list__item:hover {
     background-color: rgba(255, 255, 255, .15);
@@ -157,6 +164,36 @@ h3.album-title {
 
 .album__song-list__item:hover .checkbox,
 .album__song-list__item:hover .more-btn {
+    display: block;
+}
+
+.album-image.active {
+    border-radius: 50%;
+}
+
+.album-image.active .main-image {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: .3s ease-in-out;
+}
+
+.album-image .playing-song-icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+
+.album-image.active .play-icon {
+    display: none;
+}
+
+.album-image.active .playing-song-icon {
     display: block;
 }
 

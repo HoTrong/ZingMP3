@@ -1,160 +1,5 @@
 var albumList = document.querySelector(".album__song-list");
 
-var albumSongList = [
-  {
-    song_name: "Trăm Ngàn Lời Thương",
-    singer: ["Thùy Chi", "Ricky Star"],
-    song_img: "./assets/Images/Album_Image/TramNganLoiThuong.webp",
-    song_album: "Trăm Ngàn Lời Thương (Single)",
-    src: "",
-    song_duration: "02:46",
-  },
-  {
-    song_name: "Bao Lâu Chưa Về Nhà",
-    singer: ["DatKaa"],
-    song_img: "./assets/Images/Album_Image/BaoLauChuaVeNha.webp",
-    song_album: "Bao Lâu Chưa Về Nhà (Single)",
-    src: "",
-    song_duration: "04:27",
-  },
-  {
-    song_name: "Đợi Chờ Đừng Cáu",
-    singer: ["Phan Mạnh Quỳnh", "Hoàng Thùy Link"],
-    song_img: "./assets/Images/Album_Image/DoiChoDungCau.webp",
-    song_album: "Đợi Chờ Đừng Cáu (Single)",
-    src: "",
-    song_duration: "02:49",
-  },
-  {
-    song_name: "Như Hoa Mùa Xuân",
-    singer: ["Phùng Khánh Linh", "Wren Evans"],
-    song_img: "./assets/Images/Album_Image/NhuHoaMuaXuan.webp",
-    song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
-    src: "",
-    song_duration: "04:56",
-  },
-  {
-    song_name: "Tết Bùng Nội Lực",
-    singer: ["Hòa Minzy ★", "Bùi Công Nam"],
-    song_img: "./assets/Images/Album_Image/TetBungNoiLuc.webp",
-    song_album: "Tết Bùng Nội Lực (Single)",
-    src: "",
-    song_duration: "02:57",
-  },
-  {
-    song_name: "Tự Nhiên Cái Tết",
-    singer: ["Bùi Công Nam"],
-    song_img: "./assets/Images/Album_Image/TuNhienCaiTet.webp",
-    song_album: "",
-    src: "",
-    song_duration: "03:09",
-  },
-  {
-    song_name: "Tết Yêu, Tết Ghét",
-    singer: ["Ninh Dương Lan Ngọc", "HuyR"],
-    song_img: "./assets/Images/Album_Image/TetYeuTetGhet.webp",
-    song_album: "Tết Yêu, Tết Ghét (Single)",
-    src: "",
-    song_duration: "03:33",
-  },
-  {
-    song_name: "Mang Hạnh Phúc Đến Thăm",
-    singer: ["Huyền Tâm Môn"],
-    song_img: "./assets/Images/Album_Image/MangHanhPhucDenTham.webp",
-    song_album: "Mang Hạnh Phúc Đến Thăm (Single)",
-    src: "",
-    song_duration: "03:19",
-  },
-  {
-    song_name: "Cái Tết Giàu",
-    singer: ["Bùi Công Nam", "Lương Bích Hữu", "Đông Nhi", "Bé Winnie"],
-    song_img: "./assets/Images/Album_Image/TramNganLoiThuong.webp",
-    song_album: "Cái Tết Giàu (Single)",
-    src: "",
-    song_duration: "03:53",
-  },
-  {
-    song_name: "Chơi Banh Tết",
-    singer: ["QNT", "Fanny"],
-    song_img: "./assets/Images/Album_Image/ChoiBanhTet.webp",
-    song_album: "Chơi Banh Tết (Single)",
-    src: "",
-    song_duration: "03:15",
-  },
-  {
-    song_name: "Đón Xuân",
-    singer: ["Thanh Hà"],
-    song_img: "./assets/Images/Album_Image/DonXuan.webp",
-    song_album: "Đón Xuân (Single)",
-    src: "",
-    song_duration: "03:23",
-  },
-  {
-    song_name: "Năm Qua Đã Làm Gì",
-    singer: ["Hồ Ngọc Hà"],
-    song_img: "./assets/Images/Album_Image/NhuHoaMuaXuan.webp",
-    song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
-    src: "",
-    song_duration: "03:19",
-  },
-  {
-    song_name: "Ui Dza! Là Tết",
-    singer: ["Ngọc Dolil"],
-    song_img: "./assets/Images/Album_Image/UiDzaLaTet.webp",
-    song_album: "Ui Dza! Là Tết (Single)",
-    src: "",
-    song_duration: "02:56",
-  },
-  {
-    song_name: "Tết Là Đông Mới Vui",
-    singer: ["Đức Phúc ★", "GDucky", "DTAP"],
-    song_img: "./assets/Images/Album_Image/TetLaDongMoiVui.webp",
-    song_album: "Tết Là Đông Mới Vui (Single)",
-    src: "",
-    song_duration: "03:49",
-  },
-  {
-    song_name: "Tết Đi Em Ơi",
-    singer: ["Masew", "Khoi Vu", "kaybo"],
-    song_img: "./assets/Images/Album_Image/TetDiEmOi.webp",
-    song_album: "Tết Đi Em Ơi (Single)",
-    src: "",
-    song_duration: "03:17",
-  },
-  {
-    song_name: "Đón Tết Quê Hương",
-    singer: ["Ngọc Dolil"],
-    song_img: "./assets/Images/Album_Image/NhuHoaMuaXuan.webp",
-    song_album: "Gala Nhạc Việt: GreaTET - Thập Kỷ Nhạc Xuân",
-    src: "",
-    song_duration: "04:06",
-  },
-  {
-    song_name: "Mừng Con Về Nhà",
-    singer: ["Anh Tú"],
-    song_img: "./assets/Images/Album_Image/MungConVeNha.webp",
-    song_album: "Mừng Con Về Nhà (Single)",
-    src: "",
-    song_duration: "04:33",
-  },
-  {
-    song_name: "Định Tết Này Con Không Về",
-    singer: ["Trịnh Đình Quang"],
-    song_img: "./assets/Images/Album_Image/DinhTetNayConKhongVe.webp",
-    song_album: "Định Tết Này Con Không Về (Single)",
-    src: "",
-    song_duration: "04:49",
-  },
-  {
-    song_name: "Thèm Được Về Nhà",
-    singer: ["Tăng Phúc", "Trương Thảo Nhi"],
-    song_img: "./assets/Images/Album_Image/ThemDuocVeNha.webp",
-    song_album: "Thèm Được Về Nhà (Single)",
-    src: "",
-    song_duration: "04:21",
-  },
-];
-
 function loadAlbumSongList() {
   if (albumSongList.length > 0) {
     var temp = document.createElement("div");
@@ -179,7 +24,7 @@ function loadAlbumSongList() {
             <div class="song-list__item-main-img">
                 <img src="${albumSongList[i].song_img}"/>
                 <svg fill="var(--element-color)" height="16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                    viewBox="0 0 460.114 460.114" xml:space="preserve" class="play-icon">
+                    viewBox="0 0 460.114 460.114" xml:space="preserve" class="play-icon" onclick="playSong(albumSongList, albumSongList[${i}], 'Nhạc Mới Tết Này')">
                     <path d="M393.538,203.629L102.557,5.543c-9.793-6.666-22.468-7.372-32.94-1.832c-10.472,5.538-17.022,16.413-17.022,28.26v396.173
                         c0,11.846,6.55,22.721,17.022,28.26c10.471,5.539,23.147,4.834,32.94-1.832l290.981-198.087
                         c8.746-5.954,13.98-15.848,13.98-26.428C407.519,219.477,402.285,209.582,393.538,203.629z"/>
@@ -261,3 +106,14 @@ function loadAlbumSongList() {
 }
 
 loadAlbumSongList();
+
+function randomPlay() {
+  var index = Math.floor(Math.random() * albumSongList.length);
+  prevSongList = albumSongList.slice(0, index + 1);
+  nextSongList = albumSongList.slice(index + 1, albumSongList.length + 1);
+  loadPrevSongList();
+  loadNextSongList();
+  loadFooterSong();
+  playBtn.click();
+  randomBtn.click();
+}
