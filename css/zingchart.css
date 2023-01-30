@@ -1,0 +1,205 @@
+.zing-chart-page {
+    width: 1680px;
+    margin: 0;
+}
+
+.chart-page__top {
+    position: relative;
+    width: 100%;
+    height: 595px;
+}
+
+.zing-chart-page .chart__chart-title {
+    position: relative;
+    width: 1550px;
+    margin: 0 25px 20px;
+}
+
+.zing-chart-page .chart__chart-title .zing-chart {
+    margin: 90px 0 0 40px;
+    font-size: 40px;
+}
+
+.zing-chart-page .chart__chart-title .chart__play-icon {
+    margin-top: 79px;
+}
+
+.zing-chart-page .bg-chart {
+    width: 1550px;
+    left: 65px;
+    height: 439.4px;
+}
+
+.zing-chart-page .box {
+    margin-top: 20px;
+}
+
+.zing-chart-page .box + .box {
+    margin-top: 93px;
+}
+
+.chart-page__center {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+
+.chart__list-song {
+    position: relative;
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.chart__list-song__item {
+    color: var(--element-color);
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.chart__list-song__item .song-list__item-left {
+    width: 300px;
+}
+
+.chart__list-song__item .rank {
+    width: 100px;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+.chart__list-song__item .song-rank {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.chart__list-song__item .song-list__item-album {
+    width: 400px;
+}
+
+.chart__list-song__item:hover {
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 8px;
+}
+
+.chart__list-song__item:hover img {
+    filter: brightness(.4);
+}
+
+.chart__list-song__item:hover .play-icon,
+.chart__list-song__item:hover .like-btn,
+.chart__list-song__item:hover .more-btn {
+    display: flex;
+}
+
+.chart__list-song__item:hover .duration {
+    display: none;
+}
+
+.chart__list-song__item .like-btn {
+    display: none;
+}
+
+.chart__list-song__item .song-list__item-right {
+    width: 80px;
+}
+
+.chart__list-song__item .song-rank__container {
+    width: 80px;
+    text-align: center;
+}
+
+.rank-change {
+    font-size: 12px;
+    text-align: center;
+}
+
+.rank-status {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank-status svg {
+    display: block;
+}
+
+.chart-center__bottom {
+    width: 100%;
+    padding: 16px 0 24px;
+}
+
+.chart__more-btn {
+    padding: 10px 16px;
+    border-radius: 999px;
+    width: 132px;
+    color: var(--element-color);
+    border: 1px solid white;
+}
+.chart__more-btn:hover {
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.chart-page__bottom {
+    position: relative;
+    width: 100%;
+    height: 595px;
+    margin-bottom: 33px;
+    padding-top: 40px;
+}
+
+.chart-page__bottom-title {
+    width: 1550px;
+    position: relative;
+    margin: 0 auto 20px;
+    color: var(--element-color);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.chart-page__bottom-container {
+    width: 1550px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.chart-page__bottom-column {
+    width: 500px;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 10px;
+}
+
+.column-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 40px;
+    color: var(--element-color);
+    display: flex;
+    align-items: center;
+}
+
+.column-title .chart__play-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.chart-page__bottom .rank {
+    width: 60px;
+}
+
+.chart-page__bottom .song-rank__container {
+    width: 40px;
+}
+
+.chart-page__bottom .chart__list-song__item {
+    border: none;
+    padding-right: 10px;
+}
+
+.zing-chart-page .song-list__item-info {
+    width: 250px;
+}

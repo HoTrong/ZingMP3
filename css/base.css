@@ -1,0 +1,242 @@
+:root {
+    --sidebar-color: #231b2e;
+    --main-board-color: #34224f;
+    --element-color: #ffffff;
+    --black-color: #000000;
+    --active-color: #c273ed;
+    --scrollbar-color: #281a3d;
+    --header-element-color: rgba(255, 255, 255, .2);
+    --tippy-color: #4f4f4f;
+    --space-between: calc(482px / 11);
+    --c-space-between: calc(757px / 11);
+}
+
+html {
+    width: 1920px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    position: relative;
+}
+
+.background-left.full,
+.background-left.scaled {
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    background-color: var(--main-board-color);
+}
+
+.background-left.full {
+    width: 286px;
+}
+
+.background-left.scaled {
+    width: 276px;
+}
+
+.background-left img {
+    height: 100%;
+    width: 1920px;
+}
+
+.background-center.full,
+.background-center.scaled {
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 0;
+    background-color: var(--main-board-color);
+}
+
+.background-center.full {
+    width: 1588px;
+    left: 286px;
+}
+
+.background-center.scaled {
+    left: 276px;
+    width: 1276px;
+}
+
+.background-center img {
+    height: 100%;
+    width: 1920px;
+    transform: translateX(-287px);
+}
+
+.background-right.full,
+.background-right.scaled {
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+    background-color: var(--main-board-color);  
+}
+
+.background-right.full {
+    width: 46px;
+    left: 1874px;
+}
+
+.background-right.scaled {
+    width: 368px;
+    left: 1552px;
+}
+
+.background-right img {
+    height: 100%;
+    width: 1920px;
+    transform: translateX(-1873px);
+}
+
+.cover {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 998;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.noSelect:focus {
+    outline: none !important;
+}
+
+.is-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.is-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.is-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+aside.sidebar-left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: calc(100% - 90px);
+    background-color: rgba(255, 255, 255, .05);
+    font-size: 14px;
+    z-index: 103;
+}
+
+.sidebar-right .active svg {
+    fill: var(--element-color);
+}
+
+.active svg {
+    fill: var(--active-color);
+}
+
+.main-body {
+    margin-left: 240px;
+    width: 1680px;
+    position: relative;
+    z-index: 1;
+    height: max-content;
+    transform-origin: left top;
+    transition: .3s ease-in-out;
+}
+
+section {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.song-list,
+.filter-container,
+.latest-release__song-list,
+.section__toolbar,
+.weekly-song__list,
+.new-song__toolbar,
+.new-song__container,
+.notitle__song-container,
+.event-list {
+    width: 1550px;
+    position: relative;
+}
+
+.gallery-container,
+.mv-container,
+.song-list,
+.filter-container,
+.special-radio__container,
+.weekly-song__list,
+.popular-singer__container,
+.new-song__container,
+.notitle__song-container,
+.event-list {
+    margin: 0 auto;
+}
+
+.last {
+    margin-bottom: 120px;
+}
+
+aside.sidebar-right {
+    right: 0;
+    width: 0;
+    position: fixed;
+    display: none;
+    height: calc(100% - 90px);
+    background-color: rgba(255, 255, 255, .05);
+    z-index: 103;
+    transition: width .3s;
+    flex-direction: column;
+}
+
+.footer {
+    border-top: 1px solid #29364f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #34224f;
+    z-index: 104;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

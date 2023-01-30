@@ -1,0 +1,239 @@
+.album-page {
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.page-container {
+    width: 1550px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.page-left {
+    position: relative;
+    width: 300px;
+    height: 1150px;
+}
+
+.sticky-item {
+    position: sticky;
+    width: 100%;
+    top: 120px;
+}
+
+.page-right {
+    width: 1220px;
+    min-height: 1150px;
+}
+
+.album-image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.album-image img {
+    width: 100%;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+
+.album-image img:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+    filter: brightness(.4);
+}
+
+.album-image:hover .play-btn {
+    display: block;
+}
+
+.album-image .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.album-info {
+    width: 100%;
+    text-align: center;
+}
+
+h3.album-title {
+    color: var(--element-color);
+    margin: 20px 0 10px;
+}
+
+.album-page .page-left h5 {
+    color: #85808b;
+    margin: 0;
+}
+
+.album-page .album-update {
+    margin-bottom: 4px;
+}
+
+.album-page .album-status {
+    margin-top: 4px;
+}
+
+.album__play-btn {
+    position: relative;
+    width: 175px;
+    height: 37px;
+    color: var(--element-color);
+    background-color: var(--active-color);
+    border-radius: 999px;
+    margin: 20px auto 0;
+}
+
+.addition-btn {
+    position: relative;
+    margin: 16px auto 0;
+    width: 80px;
+}
+
+.addition-btn .like-btn,
+.addition-btn .more-btn {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.addition-btn .like-btn:hover .tippy-top,
+.addition-btn .more-btn:hover .tippy-top {
+    display: block;
+}
+
+.album-page__title {
+    color: rgba(255, 255, 255, .3);
+    margin: 20px 0 10px;
+}
+
+.album__song-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.album__song-list__item .song-list__item-left {
+    width: 352px;
+    margin-right: 209px;
+}
+
+.album__song-list__item .song-list__item-right {
+    margin-left: 248px;
+    margin-right: 8px;
+}
+
+.album-page .song-list__item-album {
+    width: 300px;
+}
+
+.album__song-list__item .song-list__item-left .song-list__item-info {
+    width: 300px;
+}
+
+.album__song-list__item {
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 8px 0;
+}
+
+.album__song-list__item:hover {
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.album__song-list__item:hover .note-icon, 
+.album__song-list__item:hover .duration {
+    display: none;
+}
+
+.album__song-list__item:hover .checkbox,
+.album__song-list__item:hover .more-btn {
+    display: block;
+}
+
+.page-bottom {
+    margin-top: 30px;
+}
+
+.artist__title {
+    color: var(--element-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.artist-list__item {
+    width: 290px;
+    height: max-content;
+}
+
+.artist-list__item-img {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.artist-list__item-img:hover img {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+    filter: brightness(.4);
+}
+
+.artist-list__item-img:hover svg {
+    display: block;
+}
+
+.artist-list__item-img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.artist-list__item-img svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+}
+
+.artist-list__item-img svg:hover {
+    fill: rgba(255, 255, 255, .7);
+}
+
+.artist-info {
+    margin-top: 12px;
+    text-align: center;
+    color: var(--element-color);
+    position: relative;
+}
+
+.artist-info .artist-followers {
+    color: rgba(255, 255, 255, .3);
+    margin: 6px 0 12px;
+    font-size: 12px;
+}
+
+.follow-btn {
+    width: 150px;
+    background-color: var(--active-color);
+    border-radius: 999px;
+    padding: 8px 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+.follow-btn svg {
+    margin-right: 4px;
+}

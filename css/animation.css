@@ -1,0 +1,131 @@
+@keyframes to-left {
+    100% {
+        transform: translateX(105%);
+        z-index: 1;
+    }
+}
+
+@keyframes to-left-disappear {
+    100% {
+        transform: translate(-40%);
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+@keyframes to-right-appear {
+    0% {
+        transform: translateX(40%);
+        opacity: 0;
+        z-index: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes to-right {
+    100% {
+        transform: translateX(-105%);
+        z-index: 1;
+    }
+}
+
+@keyframes to-right-disappear {
+    100% {
+        transform: translate(40%);
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+@keyframes to-left-appear {
+    0% {
+        transform: translateX(-40%);
+        opacity: 0;
+        z-index: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes move-left-3-200px {
+    100% {
+        transform: translateX(-337.5%);
+    }
+}
+
+@keyframes move-left-3-500px {
+    100% {
+        transform: translateX(-315%);
+    }
+}
+
+@keyframes move-left-5 {
+    100% {
+        transform: translateX(calc(-155 / 29 * 100%));
+    }
+}
+
+@keyframes move-right-3 {
+    0% {
+        transform: translateX(-337.5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes right-appear-3 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-337.5%);
+    }
+}
+
+@keyframes left-appear-3 {
+    0% {
+        transform: translateX(-337.5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes move-left-10 {
+    100% {
+        transform: translateX(-1125%);
+    }
+}
+
+@keyframes move-right-10 {
+    0% {
+        transform: translateX(-1125%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes right-appear-10 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1125%);
+    }
+}
+
+@keyframes left-appear-10 {
+    0% {
+        transform: translateX(-1125%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
