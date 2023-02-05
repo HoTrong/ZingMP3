@@ -118,12 +118,6 @@ function changePage(value) {
     }
   });
   if (value > 0) {
-    if (value === 1) {
-      loadPlayList();
-    }
-    if (value === 3) {
-      loadChartSongList();
-    }
     var leftMenuItems = document.querySelectorAll(".sidebar-left__menu-item");
     pages[value - 1].classList.remove("hidden");
     leftMenuItems.forEach((leftMenuItem) => {
@@ -131,10 +125,26 @@ function changePage(value) {
         leftMenuItem.classList.remove("active");
       }
     });
+    if (value === 1) {
+      loadPlayList();
+    }
+    if (value === 3) {
+      loadChartSongList();
+      var zingChartData = document.querySelector(
+        ".zing-chart-page .chart-data"
+      );
+      zingChartData.style.transform =
+        "scale(" +
+        document.querySelector(".chart-page__top").offsetWidth / 1680 +
+        ")";
+      zingChartData.style.height =
+        (zingChartData.offsetWidth * 44) / 168 + "px";
+    }
     leftMenuItems[value - 1].classList.add("active");
   } else {
     pages[pages.length - 1].classList.remove("hidden");
   }
+  window.scrollTo(0, 0);
 }
 
 function changeSubPage(value) {

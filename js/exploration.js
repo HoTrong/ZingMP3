@@ -123,7 +123,7 @@ rleftBtn.addEventListener("click", function () {
       hiddenItems = document.querySelectorAll(
         ".special-radio__list-item.hidden-left"
       );
-    radioList.style.width = "2225px";
+    radioList.style.width = "calc(2225 / 1550 * 100%)";
     galleryItems.forEach((galleryItem) => {
       galleryItem.classList.add("move-right");
     });
@@ -135,7 +135,7 @@ rleftBtn.addEventListener("click", function () {
       for (let i = 0; i < hiddenItems.length; i++) {
         galleryItems[galleryItems.length - 1 - i].classList.add("hidden-right");
       }
-      radioList.style.width = "1550px";
+      radioList.style.width = "100%";
       galleryItems.forEach((galleryItem) => {
         galleryItem.classList.remove("move-right");
       });
@@ -159,7 +159,7 @@ rrightBtn.addEventListener("click", function () {
       hiddenItems = document.querySelectorAll(
         ".special-radio__list-item.hidden-right"
       );
-    radioList.style.width = "2225px";
+    radioList.style.width = "calc(2225 / 1550 * 100%)";
     galleryItems.forEach((galleryItem) => {
       galleryItem.classList.add("move-left");
     });
@@ -171,7 +171,7 @@ rrightBtn.addEventListener("click", function () {
       for (let i = 0; i < hiddenItems.length; i++) {
         galleryItems[i].classList.add("hidden-left");
       }
-      radioList.style.width = "1550px";
+      radioList.style.width = "100%";
       galleryItems.forEach((galleryItem) => {
         galleryItem.classList.remove("move-left");
       });
@@ -258,7 +258,7 @@ pleftBtn.addEventListener("click", function () {
       phiddenItems = document.querySelectorAll(
         ".exploration-page .popular-singer__list-item.hidden-left"
       );
-    pList.style.width = "3800px";
+    pList.style.width = "calc(3800 / 1550 * 100%)";
     pItems.forEach((pItem) => {
       pItem.classList.add("move-right");
     });
@@ -274,7 +274,7 @@ pleftBtn.addEventListener("click", function () {
       for (let i = 0; i < phiddenItems.length - pItems.length; i++) {
         phiddenItems[phiddenItems.length - 1 - i].classList.add("hidden-right");
       }
-      pList.style.width = "1550px";
+      pList.style.width = "100%";
       phiddenItems.forEach((phiddenItem) => {
         phiddenItem.classList.remove("appear-left");
       });
@@ -297,7 +297,7 @@ prightBtn.addEventListener("click", function () {
       phiddenItems = document.querySelectorAll(
         ".exploration-page .popular-singer__list-item.hidden-right"
       );
-    pList.style.width = "3800px";
+    pList.style.width = "calc(3800 / 1550 * 100%)";
     pItems.forEach((pItem) => {
       pItem.classList.add("move-left");
     });
@@ -313,7 +313,7 @@ prightBtn.addEventListener("click", function () {
       for (let i = 0; i < phiddenItems.length - pItems.length; i++) {
         phiddenItems[i].classList.add("hidden-left");
       }
-      pList.style.width = "1550px";
+      pList.style.width = "100%";
       phiddenItems.forEach((phiddenItem) => {
         phiddenItem.classList.remove("appear-right");
       });
@@ -338,7 +338,7 @@ var notificationContainer = document.querySelector(
 var timeOut;
 
 sectionLikeBtns.forEach((likeBtn) => {
-  likeBtn.addEventListener("click", function () {
+  likeBtn.addEventListener("click", function (e) {
     clearTimeout(timeOut);
     likeBtn.querySelector(".like-icon").classList.toggle("hidden");
     likeBtn.querySelector(".on-like-icon").classList.toggle("hidden");
@@ -411,6 +411,7 @@ sectionLikeBtns.forEach((likeBtn) => {
           .classList.remove("is-on");
       }, 3000);
     }
+    e.stopPropagation();
   });
 });
 
@@ -420,7 +421,7 @@ setInterval(function () {
   var items = document.querySelectorAll(
     ".new-song__list .new-song__list-item:not(.hidden-right):not(.hidden-left)"
   );
-  nList.style.width = "3125px";
+  nList.style.width = "calc(3125 / 1550 * 100%)";
   items.forEach((item) => {
     item.classList.add("move-left");
   });
@@ -451,7 +452,7 @@ setInterval(function () {
         hiddenLeft[i].classList.remove("hidden-right");
       }
     }
-    nList.style.width = "1550px";
+    nList.style.width = "100%";
   }, 500);
 }, 7000);
 
@@ -463,7 +464,7 @@ setInterval(function () {
   var items = document.querySelectorAll(
     ".section.notitle .song-list__item:not(.hidden-right):not(.hidden-left)"
   );
-  sList.style.width = "3125px";
+  sList.style.width = "calc(3125 / 1550 * 100%)";
   items.forEach((item) => {
     item.classList.add("move-left");
   });
@@ -472,7 +473,7 @@ setInterval(function () {
     hiddenRight[i].classList.remove("hidden-right");
   }
   setTimeout(function () {
-    sList.style.width = "1550px";
+    sList.style.width = "100%";
     items.forEach((item) => {
       item.classList.add("hidden-left");
       item.classList.remove("move-left");
@@ -505,7 +506,7 @@ var moreBtns = document.querySelectorAll(
   tempBtn;
 
 moreBtns.forEach((moreBtn) => {
-  moreBtn.addEventListener("click", function () {
+  moreBtn.addEventListener("click", function (e) {
     if (moreSelection) {
       moreSelection.remove();
     }
@@ -725,6 +726,7 @@ moreBtns.forEach((moreBtn) => {
     moreBtn.parentElement.parentElement.parentElement.parentElement.append(
       moreSelection
     );
+    e.stopPropagation();
   });
 });
 

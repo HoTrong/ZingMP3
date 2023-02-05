@@ -12,7 +12,7 @@ section.gallery {
 .gallery-container,
 .mv-container {
     position: relative;
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     height: 100%;
 }
 
@@ -50,7 +50,7 @@ section.gallery {
 }
 
 .gallery-list__item {
-    width: 500px;
+    width: calc(500 / 1550 * 100%);
     border-radius: 10px;
 }
 
@@ -63,13 +63,13 @@ section.gallery {
 .gallery-list__item.position-2,
 .gallery-list__item.add {
     position: absolute;
-    left: 525px;
+    left: calc(525 / 1550 * 100%);
 }
 
 .gallery-list__item.position-3,
 .gallery-list__item.previous {
     position: absolute;
-    left: 1050px;
+    left: calc(1050 / 1550 * 100%);
 }
 
 .gallery-list__item.position-1,
@@ -152,13 +152,13 @@ section.section {
 
 .section-title {
     position: relative;
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     margin: 0 auto 20px;
     color: var(--element-color);
 }
 
 .song-list__item {
-    width: 290px;
+    width: calc(290 / 1550 * 100%);
     cursor: default;
     position: relative;
 }
@@ -176,8 +176,8 @@ section.section {
 
 .song-list__item-img-container {
     position: relative;
-    width: 290px;
-    height: 290px;
+    width: 100%;
+    height: max-content;
     border-radius: 10px;
     object-fit: fill;
     overflow: hidden;
@@ -186,6 +186,7 @@ section.section {
 .song-list__item-img-container img {
     width: 100%;
     height: 100%;
+    display: block;
     border-radius: 10px;
     transition: .3s ease-in-out;
 }
@@ -206,13 +207,13 @@ section.section {
 
 .song-list__item .album-title {
     margin: 16px 0 0;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     color: var(--element-color);
 }
 
 .album-description {
     margin: 0;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     color: #85818b;
 }
 
@@ -224,7 +225,7 @@ section.section {
 .song-list__column-item .singer-list {
     margin: 0;
     color: #817c87;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
 }
 
 .song-list__item-img .hover-btn,
@@ -247,18 +248,19 @@ section.section {
 
 .song-list__item .more-selection {
     position: absolute;
-    width: 250px;
+    width: calc(250 / 290 * 100%);
     padding: 5px 0;
     background-color: var(--main-board-color);
     border-radius: 8px;
     z-index: 101;
     top: calc(50% - 20px);
     left: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .more-selection .more-share-selection {
     position: absolute;
-    width: 250px;
+    width: 60%;
     padding: 5px 0;
     background-color: var(--main-board-color);
     border-radius: 8px;
@@ -272,7 +274,7 @@ section.section {
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     padding: 10px 0 10px;
     color: var(--element-color);
 }
@@ -325,15 +327,15 @@ section.section {
 .filter {
     display: flex;
     justify-content: space-between;
-    width: 280px;
+    width: calc(280 / 1550 * 100%);
 }
 
 .filter span {
     line-height: 24px;
-    width: 80px;
+    width: calc(80 / 280 * 100%);
     height: 24px;
     color: var(--element-color);
-    font-size: 12px;
+    font-size: var(--twelve-pixel);
     border: 1px solid #2d2537;
     border-radius: 24px;
 }
@@ -355,7 +357,7 @@ section.section {
 }
 
 .show-all__title {
-    font-size: 12px;
+    font-size: var(--twelve-pixel);
     color: #85808b;
 }
 
@@ -370,10 +372,11 @@ section.section {
 }
 
 .latest-release__song-list__column {
-    width: 480px;
+    width: calc(480 / 1550 * 100%);
 }
 
 .song-list__column-item {
+    position: relative;
     width: 100%;
     border-radius: 4px;
     padding: 10px;
@@ -400,8 +403,7 @@ section.section {
 }
 
 .latest-release__song-img {
-    width: 60px;
-    height: 60px;
+    width: 12.5%;
     position: relative;
 }
 
@@ -426,6 +428,7 @@ section.section {
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    display: block;
 }
 
 .latest-release__song-info {
@@ -435,7 +438,7 @@ section.section {
 }
 
 .latest-release__song-info .song-name {
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     margin: 0 12px 0;
     color: #d8d7da;
 }
@@ -446,7 +449,7 @@ section.section {
 
 .latest-release__song-info .update-date,
 .latest-release__song-info .singer-list {
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     margin: 0 0 0 12px;
     color: #7e7a85;
 }
@@ -458,10 +461,10 @@ section.section {
 
 .song-list__column-item .more-btn {
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     width: 36px;
     height: 36px;
-    margin-right: 8px;
+    right: 8px;
     display: none;
 }
 
@@ -497,13 +500,11 @@ section.section {
 }
 
 .special-radio__container {
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
 }
 
 .special-radio__list {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     position: relative;
 }
 
@@ -522,7 +523,8 @@ section.section {
 
 .special-radio__list .chevron-left,
 .special-radio__list .chevron-right {
-    top: 100px;
+    top: 50%;
+    transform: translateY(-96%);
 }
 
 .special-radio__list .chevron-left.disabled,
@@ -541,11 +543,7 @@ section.section {
 
 .special-radio__list .chevron-right,
 .popular-singer__container .chevron-right {
-    right: -18px;
-}
-
-.special-radio__list-item {
-    width: 200px;
+    right: -16px;
 }
 
 .special-radio__list-item.hidden-left,
@@ -583,8 +581,7 @@ section.section {
 }
 
 .special-radio__main-img {
-    width: 192px;
-    height: 192px;
+    width: 100%;
     overflow: hidden;
     object-fit: fill;
     border-radius: 50%;
@@ -595,6 +592,7 @@ section.section {
 
 .special-radio__main-img img {
     width: 100%;
+    display: block;
     border-radius: 50%;
     transition: .3s ease-in-out;
 }
@@ -607,8 +605,7 @@ section.section {
     left: 85%;
     top: 85%;
     transform: translate(-50%, -50%);
-    width: 72px;
-    height: 72px;
+    width: 36%;
     position: absolute;
     border: 1px solid black;
     border-radius: 50%;
@@ -630,7 +627,7 @@ section.section {
     background-color: red;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     color: var(--element-color);
     padding: 2px 10px;
     cursor: default;
@@ -644,7 +641,7 @@ section.section {
 .special-radio__info .special-radio__radio-title {
     margin: 18px 0 0;
     color: var(--element-color);
-    font-size: 16px;
+    font-size: var(--sixteen-pixel);
 }
 
 .special-radio__radio-status {
@@ -658,7 +655,7 @@ section.section {
     text-overflow: ellipsis;
     overflow: hidden !important;
     white-space: nowrap;
-    width: 270px;
+    width: 90%;
     color: #817c87;
 }
 
@@ -667,7 +664,7 @@ section.section {
 .chart {
     position: relative;
     margin: 25px auto 0;
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     height: 414px;
     border-radius: 10px;
     overflow: hidden;
@@ -709,7 +706,7 @@ section.section {
 
 .zing-chart {
     color: var(--element-color);
-    font-size: 28px;
+    font-size: var(--twenty-eight-pixel);
     font-weight: 700;
 }
 
@@ -732,7 +729,7 @@ section.section {
 }
 
 .chart__left-chart {
-    width: 475px;
+    width: calc(475 / 1550 * 100%);
     margin-left: 25px;
     position: relative;
 }
@@ -743,7 +740,7 @@ section.section {
     margin-right: 15px;
     font-weight: 900;
     color: rgba(74, 144, 226, 0);
-    font-size: 32px;
+    font-size: var(--thirty-two-pixel);
     -webkit-text-stroke: 1px #fff;
     font-family: "Roboto" ,sans-serif;
     white-space: nowrap;
@@ -795,7 +792,7 @@ section.section {
 
 .chart-viewers {
     margin-right: 15px;
-    font-size: 20px;
+    font-size: var(--twenty-pixel);
     font-weight: 700;
     color: var(--element-color);
 }
@@ -827,13 +824,13 @@ section.section {
 }
 
 .chart-list__item .song-name {
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     margin: 13px 0 4px;
     color: #f7f3f9;
 }
 
 .chart-list__item .singer-list {
-    font-size: 13px;
+    font-size: var(--thirteen-pixel);
     margin: 0;
     color: #b990c3;
 }
@@ -846,16 +843,17 @@ section.section {
     color: var(--element-color);
     border: 1px solid var(--element-color);
     line-height: 1.5;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
     font-weight: 400;
     background-color: #341653;
 }
 
 .right-chart {
     margin-right: 25px;
-    width: 1000px;
+    width: calc(1000 / 1550 * 100%);
     position: relative;
     height: 308px;
+    transform: scale(1);
 }
 
 .bg-chart {
@@ -878,7 +876,7 @@ section.section {
 .horizontal_axis {
     margin-top: 10px;
     color: var(--element-color);
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
 }
 
 .value {
@@ -891,6 +889,12 @@ section.section {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.chart-data {
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom left;
 }
 
 .data-point {
@@ -992,7 +996,7 @@ section.weekly-song {
 }
 
 .weekly-song__img {
-    width: 500px;
+    width: calc(500 / 1550 * 100%);
     height: max-content;
     border-radius: 4px;
     overflow: hidden;
@@ -1013,7 +1017,7 @@ section.popular-singer {
 }
 
 .popular-singer__container {
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     position: relative;
     margin: 0 auto;
 }
@@ -1025,10 +1029,6 @@ section.popular-singer {
 
 .popular-singer__list {
     width: 100%;
-}
-
-.popular-singer__list-item {
-    width: 200px;
 }
 
 .popular-singer__list-item:hover {
@@ -1080,7 +1080,6 @@ section.popular-singer {
 
 .new-song__list-item {
     display: flex;
-    width: 470px;
     height: 120px;
     padding: 15px;
     background-color: var(--header-element-color);
@@ -1114,14 +1113,13 @@ section.popular-singer {
 }
 
 .item-left {
-    width: 120px;
-    height: 120px;
+    width: calc(120 / 470 * 100%);
 }
 
 .new-song__item-img {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -1166,7 +1164,7 @@ section.popular-singer {
 .item-center__order {
     opacity: .4;
     -webkit-text-stroke: 1px var(--element-color);
-    font-size: 40px;
+    font-size: var(--forty-pixel);
     font-weight: 900;
     color: transparent;
     line-height: 1;
@@ -1189,7 +1187,7 @@ section.popular-singer {
 
 /* Events */
 .event-list__item {
-    width: 500px;
+    width: calc(500 / 1550 * 100%);
 }
 
 .event-list__item-img {
@@ -1219,7 +1217,7 @@ section.popular-singer {
     margin: 0 10px;
     width: max-content;
     color: red;
-    font-size: 10px;
+    font-size: var(--ten-pixel);
     font-weight: 400;
     background-color: var(--element-color);
     padding: 2px;
@@ -1230,13 +1228,13 @@ section.popular-singer {
     margin: 10px;
     color: var(--element-color);
     font-weight: 700;
-    font-size: 16px;
+    font-size: var(--sixteen-pixel);
 }
 .event-list__item-date {
     margin: 0 10px 10px;
     color: var(--element-color);
     font-weight: 500;
-    font-size: 14px;
+    font-size: var(--fourteen-pixel);
 }
 
 .event-follow {
@@ -1284,16 +1282,15 @@ section.popular-singer {
 }
 
 .partners-item {
-    width: 169px;
-    height: 95px;
+    width: calc(169 / 1680 * 100%);
     background-color: var(--element-color);
     margin: 20px 10px 0;
     border-radius: 10px;
 }
 
 .partners-item img {
-    max-width: 152px;
-    max-height: 76px;
+    max-width: calc(152 / 169 * 100%);
+    max-height: calc(76 / 95 * 100%);
 }
 
 .partners-list {

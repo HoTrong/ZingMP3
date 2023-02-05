@@ -1,23 +1,29 @@
 .zing-chart-page {
-    width: 1680px;
+    width: 100%;
     margin: 0;
+    display: block;
+}
+
+.zing-chart-page.hidden {
+    display: none;
 }
 
 .chart-page__top {
     position: relative;
     width: 100%;
     height: 595px;
+    display: block;
 }
 
 .zing-chart-page .chart__chart-title {
     position: relative;
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     margin: 0 25px 20px;
 }
 
 .zing-chart-page .chart__chart-title .zing-chart {
     margin: 90px 0 0 40px;
-    font-size: 40px;
+    font-size: var(--forty-pixel);
 }
 
 .zing-chart-page .chart__chart-title .chart__play-icon {
@@ -25,8 +31,8 @@
 }
 
 .zing-chart-page .bg-chart {
-    width: 1550px;
-    left: 65px;
+    width: calc(1550 / 1680 * 100%);
+    left: calc(65 / 1680 * 100%);
     height: 439.4px;
 }
 
@@ -38,6 +44,10 @@
     margin-top: 93px;
 }
 
+.zing-chart-page .chart-data {
+    height: 74%;
+}
+
 .chart-page__center {
     margin-top: 20px;
     position: relative;
@@ -47,7 +57,7 @@
 
 .chart__list-song {
     position: relative;
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     margin: 0 auto;
 }
 
@@ -58,11 +68,11 @@
 }
 
 .chart__list-song__item .song-list__item-left {
-    width: 300px;
+    width: calc(300 / 1408 * 100%);
 }
 
 .chart__list-song__item .rank {
-    width: 100px;
+    width: calc(100 / 1550 * 100%);
     padding-left: 15px;
     margin-right: 15px;
 }
@@ -74,7 +84,7 @@
 }
 
 .chart__list-song__item .song-list__item-album {
-    width: 400px;
+    width: calc(400 / 1408 * 100%);
 }
 
 .chart__list-song__item:hover {
@@ -101,21 +111,21 @@
 }
 
 .chart__list-song__item .song-list__item-right {
-    width: 80px;
+    width: calc(80 / 1408 * 100%);
 }
 
 .chart__list-song__item .song-rank__container {
-    width: 80px;
+    width: 80%;
     text-align: center;
 }
 
 .rank-change {
-    font-size: 12px;
+    font-size: var(--twelve-pixel);
     text-align: center;
 }
 
 .rank-status {
-    width: 20px;
+    width: 20%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -152,29 +162,29 @@
 }
 
 .chart-page__bottom-title {
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     position: relative;
     margin: 0 auto 20px;
     color: var(--element-color);
-    font-size: 36px;
+    font-size: var(--thirty-six-pixel);
     font-weight: 700;
 }
 
 .chart-page__bottom-container {
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     position: relative;
     margin: 0 auto;
 }
 
 .chart-page__bottom-column {
-    width: 500px;
+    width: calc(500 / 1550 * 100%);
     padding: 20px 0;
     background-color: rgba(255, 255, 255, .15);
     border-radius: 10px;
 }
 
 .column-title {
-    font-size: 24px;
+    font-size: var(--twenty-four-pixel);
     font-weight: 700;
     margin-left: 40px;
     color: var(--element-color);
@@ -188,11 +198,19 @@
 }
 
 .chart-page__bottom .rank {
-    width: 60px;
+    width: calc(60 / 500 * 100%);
+}
+
+.chart-page__bottom .song-list__item-left {
+    width: calc(300 / 389.2 * 100%);
+}
+
+.chart-page__bottom .song-list__item-main-img {
+    width: calc(2 / 15 * 100%);
 }
 
 .chart-page__bottom .song-rank__container {
-    width: 40px;
+    width: calc(40 / 58.797 * 100%);
 }
 
 .chart-page__bottom .chart__list-song__item {
@@ -201,5 +219,5 @@
 }
 
 .zing-chart-page .song-list__item-info {
-    width: 250px;
+    width: calc(5 / 6 * 100%);
 }

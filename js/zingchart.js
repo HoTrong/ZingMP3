@@ -59,7 +59,7 @@ function loadChartSongList() {
     var temp = document.createElement("div");
     temp.innerHTML += `
     <div class="chart__list-song__item is-space-between cursor-pointer">
-      <span style="width: 100px; text-align: center; padding-left: 15px; margin-right: 15px;">Gợi ý</span>
+      <span style="width: calc(100 / 1550 * 100%); text-align: center; padding-left: 15px; margin-right: 15px;">Gợi ý</span>
       <div class="is-space-between" style="flex: 1; margin-right: 12px;">
           <div class="song-list__item-left is-space-between">
               <div class="song-list__item-main-img">

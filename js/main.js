@@ -1281,6 +1281,68 @@ var tempPrevSongList = [],
 var nextBtn = document.querySelector(".footer-center .next-btn");
 var prevBtn = document.querySelector(".footer-center .previous-btn");
 
+var radioItems = document.querySelectorAll(".special-radio__list-item");
+var radioImages = document.querySelectorAll(".special-radio__main-img");
+var popularSingers = document.querySelectorAll(".popular-singer__list-item");
+var newSongs = document.querySelectorAll(".new-song__list-item");
+var notitleSongs = document.querySelectorAll(
+  "section.notitle .song-list__item"
+);
+var partnerItems = document.querySelectorAll(".partners-item");
+var chartData = document.querySelector(".exploration-page .chart-data");
+
+function resizeExploration() {
+  radioItems.forEach((radioItem) => {
+    radioItem.style.width =
+      (200 / 1550) *
+        document.querySelector(".special-radio__list").offsetWidth +
+      "px";
+  });
+
+  radioImages.forEach((radioImage) => {
+    radioImage.style.height = radioImage.offsetWidth - 8 + "px";
+  });
+
+  for (let i = radioImages.length - 3; i < radioImages.length; i++) {
+    radioImages[i].style.width = radioImages[i].style.height =
+      radioImages[0].offsetWidth + "px";
+  }
+
+  popularSingers.forEach((popularSinger) => {
+    popularSinger.style.width =
+      (200 / 1550) *
+        document.querySelector(".popular-singer__container").offsetWidth +
+      "px";
+  });
+
+  newSongs.forEach((newSong) => {
+    newSong.style.width =
+      (500 / 1550) *
+        document.querySelector(".new-song__container").offsetWidth -
+      30 +
+      "px";
+  });
+
+  notitleSongs.forEach((notitleSong) => {
+    notitleSong.style.width =
+      (290 / 1550) *
+        document.querySelector(".notitle__song-container").offsetWidth +
+      "px";
+  });
+  partnerItems.forEach((partnerItem) => {
+    partnerItem.style.height = (95 / 169) * partnerItem.offsetWidth + "px";
+  });
+
+  chartData.style.transform =
+    "scale(" + document.querySelector(".right-chart").offsetWidth / 1000 + ")";
+}
+
+window.onresize = function () {
+  resizeExploration();
+};
+
+resizeExploration();
+
 function loadFooterSong() {
   if (prevSongList.length > 0) {
     if (prevSongList.length === 1) {
@@ -1969,15 +2031,18 @@ playListBtn.addEventListener("click", function () {
   if (!isShow) {
     sideBarRight.style.display = "flex";
     mainBody.style.transform = "scale(calc(45 / 56))";
-    document.querySelector("header.header").style.width = "1213px";
-    document.querySelector("aside.sidebar-right").style.width = "330px";
+    document.querySelector("header.header").style.width =
+      "calc(1211 / 1903 * 100%)";
+    document.querySelector("aside.sidebar-right").style.width =
+      "calc(332 / 1903 * 100%)";
     isShow = true;
     document
       .querySelectorAll(".background")
       .forEach((item) => item.classList.replace("full", "scaled"));
   } else {
     mainBody.style.transform = "scale(1.0)";
-    document.querySelector("header.header").style.width = "1560px";
+    document.querySelector("header.header").style.width =
+      "calc(1575 / 1903 * 100%)";
     document.querySelector("aside.sidebar-right").style.width = "0";
     setTimeout(function () {
       sideBarRight.style.display = "none";

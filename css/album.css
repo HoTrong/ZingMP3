@@ -6,14 +6,14 @@
 }
 
 .page-container {
-    width: 1550px;
+    width: calc(1550 / 1680 * 100%);
     position: relative;
     margin: 0 auto;
 }
 
 .page-left {
     position: relative;
-    width: 300px;
+    width: calc(300 / 1550 * 100%);
     height: 1150px;
 }
 
@@ -24,13 +24,12 @@
 }
 
 .page-right {
-    width: 1220px;
+    width: calc(1220 / 1550 * 100%);
     min-height: 1150px;
 }
 
 .album-image {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     overflow: hidden;
     border-radius: 10px;
     position: relative;
@@ -39,6 +38,7 @@
 .album-image .main-image {
     width: 100%;
     height: 100%;
+    display: block;
     transition: .3s ease-in-out;
 }
 
@@ -85,7 +85,7 @@ h3.album-title {
 
 .album__play-btn {
     position: relative;
-    width: 175px;
+    width: calc(7 / 12 * 100%);
     height: 37px;
     color: var(--element-color);
     background-color: var(--active-color);
@@ -96,7 +96,7 @@ h3.album-title {
 .addition-btn {
     position: relative;
     margin: 16px auto 0;
-    width: 80px;
+    width: calc(4 / 15 * 100%);
 }
 
 .addition-btn .like-btn,
@@ -124,8 +124,8 @@ h3.album-title {
 }
 
 .album__song-list__item .song-list__item-left {
-    width: 352px;
-    margin-right: 209px;
+    width: calc(352 / 1220 * 100%);
+    margin-right: 208px;
 }
 
 .album__song-list__item .song-list__item-right {
@@ -134,11 +134,11 @@ h3.album-title {
 }
 
 .album-page .song-list__item-album {
-    width: 300px;
+    width: calc(300 / 1220 * 100%);
 }
 
 .album__song-list__item .song-list__item-left .song-list__item-info {
-    width: 300px;
+    width: calc(300 / 352 * 100%);
 }
 
 .album__song-list__item {
@@ -164,7 +164,7 @@ h3.album-title {
 
 .album__song-list__item:hover .checkbox,
 .album__song-list__item:hover .more-btn {
-    display: block;
+    display: flex;
 }
 
 .album-image.active {
@@ -203,19 +203,22 @@ h3.album-title {
 
 .artist__title {
     color: var(--element-color);
-    font-size: 18px;
+    font-size: var(--eighteen-pixel);
     font-weight: 700;
     margin-bottom: 16px;
 }
 
+.album-page .song-list {
+    width: 100%;
+}
+
 .artist-list__item {
-    width: 290px;
+    width: calc(290 / 1550 * 100%);
     height: max-content;
 }
 
 .artist-list__item-img {
-    width: 290px;
-    height: 290px;
+    width: 100%;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -234,6 +237,7 @@ h3.album-title {
 .artist-list__item-img img {
     width: 100%;
     height: 100%;
+    display: block;
     transition: 0.3s ease-in-out;
 }
 
@@ -259,11 +263,11 @@ h3.album-title {
 .artist-info .artist-followers {
     color: rgba(255, 255, 255, .3);
     margin: 6px 0 12px;
-    font-size: 12px;
+    font-size: var(--twelve-pixel);
 }
 
 .follow-btn {
-    width: 150px;
+    width: calc(150 / 290 * 100%);
     background-color: var(--active-color);
     border-radius: 999px;
     padding: 8px 0;

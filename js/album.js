@@ -33,7 +33,7 @@ function loadAlbumSongList() {
             <div class="song-list__item-info">
                 <h5 class="item-info__song-name">${albumSongList[i].song_name}</h5>
                 <h6 class="song-info__singer">
-                    <span class="singer-list">
+                    <span class="singer-list limit">
                     </span>
                 </h6>
             </div>
