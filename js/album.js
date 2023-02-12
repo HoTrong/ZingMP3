@@ -20,7 +20,7 @@ function loadAlbumSongList() {
                     S512,429.959,512,379.871v-66.065V123.871V24.774C512,17.529,508.827,10.646,503.319,5.939z"/>
         </svg>
         <input type="checkbox" style="margin: 0 8px;" class="checkbox cursor-pointer">
-        <div class="song-list__item-left is-space-between">
+        <div class="song-list__item-left">
             <div class="song-list__item-main-img">
                 <img src="${albumSongList[i].song_img}"/>
                 <svg fill="var(--element-color)" height="16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 

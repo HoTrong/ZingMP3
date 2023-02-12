@@ -425,9 +425,11 @@ setInterval(function () {
   items.forEach((item) => {
     item.classList.add("move-left");
   });
-  for (let i = 0; i < 3; i++) {
-    hiddenRight[i].classList.add("move-left");
-    hiddenRight[i].classList.remove("hidden-right");
+  if (hiddenRight) {
+    for (let i = 0; i < 3; i++) {
+      hiddenRight[i].classList.add("move-left");
+      hiddenRight[i].classList.remove("hidden-right");
+    }
   }
   setTimeout(function () {
     items.forEach((item) => {
@@ -741,3 +743,12 @@ window.onclick = function (event) {
     }
   }
 };
+
+var latestReleaseItemSongs = document.querySelectorAll(
+  ".latest-release__song-info"
+);
+
+latestReleaseItemSongs.forEach((latestReleaseItemSong) => {
+  latestReleaseItemSong.style.height =
+    latestReleaseItemSongs[0].parentElement.offsetHeight + "px";
+});

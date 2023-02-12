@@ -68,6 +68,7 @@
 h3.album-title {
     color: var(--element-color);
     margin: 20px 0 10px;
+    width: 100%;
 }
 
 .album-page .page-left h5 {
@@ -124,12 +125,12 @@ h3.album-title {
 }
 
 .album__song-list__item .song-list__item-left {
-    width: calc(352 / 1220 * 100%);
-    margin-right: 208px;
+    width: calc(560 / 1220 * 100%);
+    display: flex;
+    align-items: center;
 }
 
 .album__song-list__item .song-list__item-right {
-    margin-left: 248px;
     margin-right: 8px;
 }
 
@@ -139,6 +140,7 @@ h3.album-title {
 
 .album__song-list__item .song-list__item-left .song-list__item-info {
     width: calc(300 / 352 * 100%);
+    margin-left: 12px;
 }
 
 .album__song-list__item {
@@ -277,4 +279,8 @@ h3.album-title {
 
 .follow-btn svg {
     margin-right: 4px;
+}
+
+.album-page .song-list__item-main-img {
+    width: calc(1 / 14 * 100%);
 }

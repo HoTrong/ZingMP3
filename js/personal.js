@@ -5,7 +5,7 @@ function loadPlayList() {
     var temp = document.createElement("div");
     for (let i = 0; i < personalSongList.length; i++) {
       temp.innerHTML += `
-      <div class="personal-page__right-song-list__item cursor-pointer is-space-between">
+      <div class="personal-page__right-song-list__item cursor-pointer">
         <div class="song-list__item-left is-space-between">
             <svg
                 fill="var(--element-color)"
@@ -31,11 +31,11 @@ function loadPlayList() {
                 </svg>
             </div>
             <div class="song-list__item-info">
-                <h5 class="item-info__song-name">${personalSongList[i].song_name}</h5>
-                <h6 class="song-info__singer">
+                <h4 class="item-info__song-name">${personalSongList[i].song_name}</h4>
+                <h5 class="song-info__singer">
                     <span class="singer-list">
                     </span>
-                </h6>
+                </h5>
             </div>
         </div>
         <div class="song-list__item-album">${personalSongList[i].song_album}</div>
@@ -103,6 +103,15 @@ function loadPlayList() {
   } else {
     personalList.innerHTML = "";
   }
+
+  var personalItemSongs = document.querySelectorAll(
+    ".personal-page .song-page .song-list__item-info"
+  );
+
+  personalItemSongs.forEach((personalItemSong) => {
+    personalItemSong.style.height =
+      personalItemSongs[0].parentElement.offsetHeight + "px";
+  });
 }
 
 function changePage(value) {

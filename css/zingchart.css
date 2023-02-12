@@ -67,24 +67,10 @@
     border-bottom: 1px solid white;
 }
 
-.chart__list-song__item .song-list__item-left {
-    width: calc(300 / 1408 * 100%);
-}
-
-.chart__list-song__item .rank {
-    width: calc(100 / 1550 * 100%);
-    padding-left: 15px;
-    margin-right: 15px;
-}
-
 .chart__list-song__item .song-rank {
     text-align: center;
     margin: 0;
     padding: 0;
-}
-
-.chart__list-song__item .song-list__item-album {
-    width: calc(400 / 1408 * 100%);
 }
 
 .chart__list-song__item:hover {
@@ -205,12 +191,22 @@
     width: calc(300 / 389.2 * 100%);
 }
 
+.chart-page__center .song-list__item-main-img {
+    width: calc(2 / 25 * 100%);
+    margin-right: 12px;
+}
+
 .chart-page__bottom .song-list__item-main-img {
     width: calc(2 / 15 * 100%);
 }
 
 .chart-page__bottom .song-rank__container {
     width: calc(40 / 58.797 * 100%);
+}
+
+.zing-chart-page .song-list__item-left {
+    display: flex;
+    align-items: center;
 }
 
 .chart-page__bottom .chart__list-song__item {
@@ -220,4 +216,5 @@
 
 .zing-chart-page .song-list__item-info {
     width: calc(5 / 6 * 100%);
+    justify-content: space-between;
 }

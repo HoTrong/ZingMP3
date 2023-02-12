@@ -1,0 +1,194 @@
+aside.sidebar-left {
+    width: 85px;
+}
+
+.sidebar-left__logo img {
+    margin: 13px auto;
+    width: 70%;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 69px;
+}
+
+.sidebar-left__menu-item {
+    padding: 8px 0;
+}
+
+.sidebar-left__menu-item.active {
+    padding: 0;
+}
+
+.icon + .content {
+    padding: 0;
+    margin-top: 4px;
+}
+
+header.header {
+    left: 85px;
+    width: 995px;
+}
+
+.main-body {
+    margin-left: 85px;
+    width: calc(1115 / 1200 * 100%);
+}
+
+.background-left.full {
+    width: 108px;
+}
+
+.background-left.scaled {
+    width: 108px;
+}
+
+.background-center.full {
+    width: 1067px;
+    left: 108px;
+}
+
+.background-right.full {
+    left: 1175px;
+    width: 25px;
+}
+
+.footer {
+    width: 1200px;
+}
+
+.latest-release__song-img {
+    width: 50px;
+    height: 50px;
+}
+
+.chart {
+    height: 374px;
+}
+
+.chart__chart-title {
+    margin: 20px 25px 0;
+}
+
+.chart__left-chart {
+    width: 275px;
+}
+
+.song-rank {
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.chart-list__item {
+    height: 60px;
+}
+
+.chart-list__item-img {
+    width: 40px;
+    height: 40px;
+}
+
+.chart-list__item-info {
+    width: 140px;
+}
+
+.chart-viewers {
+    font-size: 14px;
+}
+
+.box + .box {
+    margin-top: 52px;
+}
+
+.item-left {
+    width: 80px;
+}
+
+.item-center {
+    width: 120px;
+}
+
+.item-center__song-name {
+    font-size: 14px;
+}
+
+.item-center__singer {
+    font-size: 13px;
+}
+
+.item-center__order {
+    font-size: 24px;
+}
+
+.personal-info__details {
+    margin: 37px 0 0 20px;
+}
+
+.personal-page .song-page .song-list__item-right {
+    display: none;
+}
+
+.duration-title {
+    display: none;
+}
+
+.personal-page .song-page .song-list__item-left {
+    width: 62.5%;
+}
+
+.personal-page .song-page .song-list__item-album {
+    width: 37.5%;
+}
+
+.song-title {
+    margin-left: 18px;
+    width: 62.5%;
+}
+
+.album-title {
+    width: 37.5%;
+}
+
+.chart__list-song__item .song-list__item-left {
+    width: calc(3 / 7 * 100%);
+}
+
+.chart__list-song__item .song-list__item-album {
+    width: calc(3 / 7 * 100%);
+}
+
+.chart__list-song__item .rank {
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.chart-page__bottom .song-list__item-left{
+    width: calc(6 / 7 * 100%);
+}
+
+.album__song-list__item .song-list__item-right {
+    margin-left: 0;
+}
+
+.album-page .page-left {
+    width: calc(240 / 1067 * 100%);
+}
+
+.album-page .page-right {
+    width: calc(810 / 1067 * 100%);
+}
+
+.album-page .page-right .song-list__item-left {
+    width: calc(330 / 781 * 100%);
+}
+
+.album-page .page-right .song-list__item-album {
+    width: calc(340 / 781 * 100%);
+}
+
+.album-page .song-list__item-main-img {
+    width: 10%;
+}

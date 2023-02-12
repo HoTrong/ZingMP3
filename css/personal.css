@@ -13,11 +13,11 @@
 }
 
 .personal-page__left {
-    width: calc(628 / 1550 * 100%);
+    width: calc(630 / 1550 * 100%);
 }
 
 .personal-info {
-    width: calc(600 / 628 * 100%);
+    width: calc(600 / 630 * 100%);
     background-image: linear-gradient(red 50%, transparent 50%);
     padding: 20px 0 20px 20px;
     display: flex;
@@ -92,7 +92,7 @@
 .list-song-img img {
     top: 50%;
     left: 50%;
-    width: calc(250 / 628 * 100%);
+    width: calc(250 / 630 * 100%);
     position: absolute;
     border-radius: 20px;
     transition: .5s ease-in-out;
@@ -141,7 +141,7 @@
 }
 
 .personal-page__right {
-    width: calc(750 / 1550 * 100%);
+    width: calc(900 / 1550 * 100%);
     height: 610px;
 }
 
@@ -171,12 +171,13 @@
 
 .personal-page__right-song-list__item {
     display: flex;
+    align-items: center;
     padding: 8px;
     border-top: 1px solid rgba(255, 255, 255, .3);
 }
 
 .song-list__item-left {
-    width: calc(320 / 729 * 100%);
+    width: calc(450 / 879 * 100%);
 }
 
 .personal-page__right-title {
@@ -233,7 +234,7 @@ input[type='checkbox']:checked::after {
 }
 
 .song-list__item-main-img {
-    width: 12.5%;
+    width: calc(4 /45 * 100%);
     height: fit-content;
     border-radius: 4px;
     overflow: hidden;
@@ -255,24 +256,27 @@ input[type='checkbox']:checked::after {
 }
 
 .song-list__item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     color: var(--element-color);
-    width: calc(250 / 320 * 100%);
+    width: calc(37 / 45 * 100%);
 }
 
 .item-info__song-name {
     margin: 0;
-    max-width: calc(250 / 320 * 100%);
+    font-size: var(--fifteen-pixel);
 }
 
 .song-info__singer {
-    margin-top: 4px;
     color: #85808b;
+    font-size: var(--thirteen-pixel);
 }
 
 .song-list__item-album {
     color: var(--element-color);
     font-size: var(--fourteen-pixel);
-    width: 200px;
+    width: calc(355 / 879 * 100%);
 }
 
 .song-list__item-right {
@@ -381,10 +385,9 @@ input[type='checkbox']:checked::after {
     margin: 0 auto;
 }
 
-.personal-page .section__toolbar {
+.personal-singer .section__toolbar {
     width: 100%;
 }
-
 /* Album page */
 .album-list {
     position: relative;
@@ -396,7 +399,7 @@ input[type='checkbox']:checked::after {
 
 .album-list__item {
     width: calc(290 / 1575 * 100%);
-    margin: 30px 12.5px 0;
+    margin: 30px calc(12.5 / 1575 * 100%) 0;
 }
 
 .album-list__item-img {
@@ -422,13 +425,17 @@ input[type='checkbox']:checked::after {
 .mv-list {
     position: relative;
     margin: 0 auto;
-    width: calc(1575 / 1680 * 100%);
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
 
+.subpage .mv-list {
+    width: calc(1575 / 1680 * 100%);
+}
+
 .mv-page .mv-list__item {
-    margin: 30px 12.5px 0;
+    margin: 30px calc(12.5 / 1575 * 100%) 0;
 }
 
 .mv-list__item .play-btn {
@@ -453,5 +460,34 @@ input[type='checkbox']:checked::after {
 }
 
 .personal-page .popular-singer__list-item {
-    margin: 30px 12.5px 0;
+    margin: 30px calc(12.5 / 1575 * 100%) 0;
+}
+
+.personal-page .song-page .mv-container {
+    width: 100%;
+}
+
+.personal-singer__list {
+    width: 100%;
+}
+
+.personal-singer__list-item {
+    width: calc(200 / 1550 * 100%);
+}
+
+.personal-singer__list-item img {
+    width: 100%;
+}
+
+.song-title {
+    width: calc(350 / 750 * 100%);
+    margin-left: calc(40 / 750 * 100%);
+}
+
+.album-title {
+    width: calc(288 / 750 * 100%);
+}
+
+.duration-title {
+    width: calc(72 / 750 * 100%);
 }

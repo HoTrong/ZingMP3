@@ -61,7 +61,7 @@ function loadChartSongList() {
     <div class="chart__list-song__item is-space-between cursor-pointer">
       <span style="width: calc(100 / 1550 * 100%); text-align: center; padding-left: 15px; margin-right: 15px;">Gợi ý</span>
       <div class="is-space-between" style="flex: 1; margin-right: 12px;">
-          <div class="song-list__item-left is-space-between">
+          <div class="song-list__item-left">
               <div class="song-list__item-main-img">
                   <img src="${chartSongs[0].song_img}">
                   <svg fill="var(--element-color)" height="16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -147,7 +147,7 @@ function loadChartSongList() {
           </div>
       </div>
       <div class="is-space-between" style="flex: 1; margin-right: 12px;">
-          <div class="song-list__item-left is-space-between">
+          <div class="song-list__item-left">
               <div class="song-list__item-main-img">
                   <img src="${chartSongs[i].song_img}">
                   <svg fill="var(--element-color)" height="16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -263,6 +263,14 @@ function loadChartSongList() {
   } else {
     chartSongList.innerHTML = "";
   }
+  var personalItemSongs = document.querySelectorAll(
+    ".chart-page__center .song-list__item-info"
+  );
+
+  personalItemSongs.forEach((personalItemSong) => {
+    personalItemSong.style.height =
+      personalItemSongs[1].parentElement.offsetHeight + "px";
+  });
 }
 
 function loadAllChartSong() {

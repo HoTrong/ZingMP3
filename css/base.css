@@ -9,24 +9,12 @@
     --tippy-color: #4f4f4f;
     --space-between: calc(482px / 11);
     --c-space-between: calc(757px / 11);
-    --ten-pixel: 10px;
-    --eleven-pixel: 11px;
-    --twelve-pixel: 12px;
-    --thirteen-pixel: 13px;
-    --fourteen-pixel: 14px;
-    --sixteen-pixel: 16px;
-    --eighteen-pixel: 18px;
-    --twenty-pixel: 20px;
-    --twenty-four-pixel: 24px;
-    --twenty-eight-pixel: 28px;
-    --thirty-two-pixel: 32px;
-    --thirty-six-pixel: 36px;
-    --forty-pixel: 40px
 }
 
 html {
     width: 100%;
     height: 100%;
+    min-width: 1000px;
 }
 
 body {
@@ -165,10 +153,7 @@ button {
 
 aside.sidebar-left {
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: calc(240 / 1903 * 100%);
-    height: calc(100% - 90px);
+    height: calc(100vh - 90px);
     background-color: rgba(255, 255, 255, .05);
     font-size: var(--fourteen-pixel);
     z-index: 103;
@@ -254,21 +239,74 @@ aside.sidebar-right {
     display: none;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1920px) {
     :root {
-        --ten-pixel: 8px;
-        --eleven-pixel: 9px;
-        --twelve-pixel: 10px;
-        --thirteen-pixel: 11px;
-        --fourteen-pixel: 12px;
-        --sixteen-pixel: 14px;
-        --eighteen-pixel: 16px;
-        --twenty-pixel: 18px;
-        --twenty-four-pixel: 22px;
-        --twenty-eight-pixel: 26px;
-        --thirty-two-pixel: 30px;
-        --thirty-six-pixel: 34px;
-        --forty-pixel: 38px
+        --ten-pixel: 10px;
+        --eleven-pixel: 11px;
+        --twelve-pixel: 12px;
+        --thirteen-pixel: 13px;
+        --fourteen-pixel: 14px;
+        --fifteen-pixel: 15px;
+        --sixteen-pixel: 16px;
+        --eighteen-pixel: 18px;
+        --twenty-pixel: 20px;
+        --twenty-four-pixel: 24px;
+        --twenty-eight-pixel: 28px;
+        --thirty-two-pixel: 32px;
+        --thirty-six-pixel: 36px;
+        --forty-pixel: 40px
+    }
+
+    .sidebar-left__logo img {
+        margin: 16px 92px 0 30px;
+    }
+
+    aside.sidebar-left {
+        width: calc(240 / 1903 * 100%);
+    }
+
+    .sidebar-left__menu-item {
+        padding: 8px 30px;
+    }
+
+    .sidebar-left__menu-item.active {
+        padding-left: 27px;
+    }
+ 
+    .icon + .content {
+        padding-left: 10px;
+    }
+
+    .chart__list-song__item .song-list__item-left {
+        width: calc(500 / 1408 * 100%);
+    }
+    
+    .chart__list-song__item .song-list__item-album {
+        width: calc(400 / 1408 * 100%);
+    }
+
+    .chart__list-song__item .rank {
+        width: calc(100 / 1550 * 100%);
+        padding-left: 15px;
+        margin-right: 15px;
+    }
+
+    .vip_banner, .login_banner {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 24px 0;
+        padding: 10px 16px;
+        border-radius: 8px;
+    }
+
+    .album__song-list__item .song-list__item-right {
+        margin-left: 248px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .login_banner, .vip_banner {
+        display: none;
     }
 }
 
@@ -279,6 +317,7 @@ aside.sidebar-right {
         --twelve-pixel: 8px;
         --thirteen-pixel: 9px;
         --fourteen-pixel: 10px;
+        --fifteen-pixel: 11px;
         --sixteen-pixel: 12px;
         --eighteen-pixel: 14px;
         --twenty-pixel: 16px;
@@ -287,5 +326,208 @@ aside.sidebar-right {
         --thirty-two-pixel: 28px;
         --thirty-six-pixel: 32px;
         --forty-pixel: 36px
+    }
+
+    aside.sidebar-left {
+        width: calc(85 / 1200 * 100%);
+    }
+    
+    .sidebar-left__logo img {
+        margin: 13px auto;
+        width: 70%;
+    }
+    
+    .selection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 69px;
+    }
+    
+    .sidebar-left__menu-item {
+        padding: 8px 0;
+    }
+    
+    .sidebar-left__menu-item.active {
+        padding: 0;
+    }
+    
+    .icon + .content {
+        padding: 0;
+        margin-top: 4px;
+    }
+    
+    header.header {
+        left: calc(85 / 1200 * 100%);
+        width: calc(85 / 1200 * 100%);
+    }
+    
+    .main-body {
+        margin-left: calc(85 / 1200 * 100%);
+        width: calc(1115 / 1200 * 100%);
+    }
+    
+    .background-left.full {
+        width: calc(108 / 1200 * 100%);
+    }
+    
+    .background-left.scaled {
+        width: calc(108 / 1200 * 100%);
+    }
+    
+    .background-center.full {
+        width: calc(1067 / 1200 * 100%);
+        left: calc(108 / 1200 * 100%);
+    }
+    
+    .background-right.full {
+        left: calc(1175 / 1200 * 100%);
+        width: calc(25 / 1200 * 100%);
+    }
+    
+    .footer {
+        width: 100%;
+    }
+    
+    .latest-release__song-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .chart {
+        height: 374px;
+    }
+    
+    .chart__chart-title {
+        margin: 20px 25px 0;
+    }
+    
+    .chart__left-chart {
+        width: 275px;
+    }
+    
+    .song-rank {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .chart-list__item {
+        height: 60px;
+    }
+    
+    .chart-list__item-img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .chart-list__item-info {
+        width: 140px;
+    }
+    
+    .chart-viewers {
+        font-size: 14px;
+    }
+    
+    .box + .box {
+        margin-top: 52px;
+    }
+    
+    .item-left {
+        width: 80px;
+    }
+    
+    .item-center {
+        width: 120px;
+    }
+    
+    .item-center__song-name {
+        font-size: 14px;
+    }
+    
+    .item-center__singer {
+        font-size: 13px;
+    }
+    
+    .item-center__order {
+        font-size: 24px;
+    }
+    
+    .personal-info__details {
+        margin: 37px 0 0 20px;
+    }
+    
+    .personal-page .song-page .song-list__item-right {
+        display: none;
+    }
+    
+    .duration-title {
+        display: none;
+    }
+    
+    .personal-page .song-page .song-list__item-left {
+        width: 62.5%;
+    }
+    
+    .personal-page .song-page .song-list__item-album {
+        width: 37.5%;
+    }
+    
+    .song-title {
+        margin-left: 18px;
+        width: 62.5%;
+    }
+    
+    .album-title {
+        width: 37.5%;
+    }
+
+    .chart__list-song__item .song-list__item-left {
+        width: calc(3 / 7 * 100%);
+    }
+    
+    .chart__list-song__item .song-list__item-album {
+        width: calc(3 / 7 * 100%);
+    }
+    
+    .chart__list-song__item .rank {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .chart-page__bottom .song-list__item-left{
+        width: calc(6 / 7 * 100%);
+    }
+
+    .new-song__list-item {
+        height: 77px;
+    }
+
+    .album__song-list__item .song-list__item-right {
+        margin-left: 0;
+    }
+    
+    .album-page .page-left {
+        width: calc(240 / 1067 * 100%);
+    }
+    
+    .album-page .page-right {
+        width: calc(810 / 1067 * 100%);
+    }
+    
+    .album-page .page-right .song-list__item-left {
+        width: calc(330 / 781 * 100%);
+    }
+    
+    .album-page .page-right .song-list__item-album {
+        width: calc(340 / 781 * 100%);
+    }
+    
+    .album-page .song-list__item-main-img {
+        width: 10%;
+    }
+
+    .playlist-btn {
+        display: none;
     }
 }
